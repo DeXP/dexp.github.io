@@ -2,7 +2,7 @@
 layout: page
 subheadline: "Low level programming"
 title:  "Read TAR-file in 26 lines of Ansi-C code"
-teaser: "Archivers - it's scary! Huge and terrible algorithms that an ordinary person will never understand! Rar, zip, gzip, tar are modern de facto standards, which means extremely complex and tricky things that you should not try to understand. Well, tar looks simpler, maybe it's not that hard? See <a href='http://git.savannah.gnu.org/cgit/tar.git/tree/src'>git</a> with the sources. We see dozens of files, many for tens of kilobytes. Hmm. Apparently, a dead end."
+teaser: "Archivers - it's scary! Huge and terrible algorithms that an ordinary person will never understand! Rar, zip, gzip, tar are modern de facto standards, which means extremely complex and tricky things that you should not try to understand. Well, tar looks simpler, maybe it's not that hard? See <a href='http://git.savannah.gnu.org/cgit/tar.git/tree/src'>git</a> with the sources. We see dozens of files, many of tens kilobytes. Hmm. Apparently, a dead end."
 categories: articles
 tags:
     - articles
@@ -29,9 +29,9 @@ __________________        ____________________________________________
                   |      |dwb
 ```
 
-In fact, everything is not so difficult. The documentation described that tar is just a way to write multiple files to tape. So everything should be simple. In fact - a set of auxiliary information for each file, than its contents directly. Only understanding of this fact allowed me to write the reader of tar-files in 26 lines.
+In fact, everything is not so difficult. The documentation described that tar is just a way to write multiple files to tape. So everything should be simple. In fact - a set of auxiliary information for each file, then its contents directly. Only understanding of this fact allowed me to write the reader of tar-files in 26 lines.
 
-Why should tar be used instead zip? For me the question of using tar comes when I wanted to get the archiver "for free" in my tiny C-applications. With minimal growth of the executable and without unnecessary dependencies. For example, the [dxPmdxConverter]({{ site.url }}/tools/dxpmdxconverter/) utility can read BMP and convert it to PNG using [LodePNG](http://lodev.org/lodepng/). So the application already has a functional that "archives" an array of pixels into a compressed PNG format. PNG is compressed by the [Deflate](https://en.wikipedia.org/wiki/DEFLATE) algorithm, which is used in zip and gzip. Moreover, it used directly in gzip - the gzip header is written, than the data stream from Deflate, than the crc-sum. The output is a ready .gz file which can be opened by any archiver. However, gzip can compress only one file. So you need to combine several files into one before compression. The most common way to do this is tar.
+Why should tar be used instead zip? For me, the question of using tar comes when I wanted to get the archiver "for free" in my tiny C-applications. With a minimal growth of the executable and without unnecessary dependencies. For example, the [dxPmdxConverter]({{ site.url }}/tools/dxpmdxconverter/) utility can read BMP and convert it to PNG using [LodePNG](http://lodev.org/lodepng/). So the application already has a function that "archives" an array of pixels into a compressed PNG format. PNG is compressed by the [Deflate](https://en.wikipedia.org/wiki/DEFLATE) algorithm, which is used in zip and gzip. Moreover, it used directly in gzip - the gzip header is written, then the data stream from Deflate, then the crc-sum. The output is a ready .gz file which can be opened by any archiver. However, gzip can compress only one file. So you need to combine several files into one before compression. The most common way to do this is tar.
 
 ```
  ____  _   _  ____      __  ____        __ _       _            __   ____ ______       
@@ -42,7 +42,7 @@ Why should tar be used instead zip? For me the question of using tar comes when 
                                                                                 |_|
 ``` 
 
-Next time I needed tar in a similar situation. I wanted not simple store the resources for [Wordlase]({{ site.url }}/games/wordlase/) game, but archive and compress them. I can pack resources for a really long time on my machine. But the resources will be unpacked every time when user starts the game. So the solution should work quickly. Public domain implementation of the compression algorithm was found on the Internet, but it can pack only one file. Thats how hero of this publication was born - [dxTarRead]({{ site.url }}/tools/dxtarread/).
+Next time I needed tar in a similar situation. I wanted not simply store the resources for [Wordlase]({{ site.url }}/games/wordlase/) game, but archive and compress them. I can pack resources for a really long time on my machine. But the resources will be unpacked every time when a user starts the game. So the solution should work quickly. Public domain implementation of the compression algorithm was found on the Internet, but it can pack only one file. That's how the hero of this publication was born - [dxTarRead]({{ site.url }}/tools/dxtarread/).
 
 Advantages of dxTarRead:
 
@@ -53,9 +53,9 @@ Advantages of dxTarRead:
 5. Public Domain
 
 
-The main disadvantage is that the tar file must be entirely read into memory before usage. On the other hand resources will still be used, i.e. will be loaded. Then why not load them from the disk at once, and take the data from tar directly when you need it.
+The main disadvantage is that the tar file must be entirely read into memory before usage. On the other hand, resources will still be used, i.e. will be loaded. Then why not load them from the disk at once, and take the data from tar directly when you need it.
 
-So, tar. The basic information on the standard can be found on [GNU.org](https://www.gnu.org/software/tar/manual/html_node/Standard.html). I used only the description of the structure "struct posix_header". This constants are taken from it:
+So, tar. The basic information on the standard can be found on [GNU.org](https://www.gnu.org/software/tar/manual/html_node/Standard.html). I used only the description of the structure "struct posix_header". These constants are taken from it:
 
 ```c
 const int NAME_OFFSET = 0, SIZE_OFFSET = 124, MAGIC_OFFSET = 257;
@@ -66,7 +66,7 @@ These constants can be read like this: if you move from the beginning of the tar
 
 Do not forget to read the documentation! There we can find out that the size is stored in the octal system ;-) If you read the bytes from the end of SZ_SIZE and add a digit multiplied by 8, you get the size in the usual decimal form.
 
-In C language its looks like:
+In C language it's looks like:
 
 ```c
 const char* sz = tar + SIZE_OFFSET + currentBlockStart;
@@ -75,7 +75,7 @@ for(i=SZ_SIZE-2, mul=1; i>=0; mul*=8, i--) /* Octal str to int */
     if( (sz[i]>='1') && (sz[i] <= '9') ) size += (sz[i] - '0') * mul;
 ```
 
-Now we very close to the topic of tar-blocks. It's just 512 bytes of data - either the tar header, or bytes of the file written consecutively. The 512 bytes are still reserved if the last block of the file takes less than 512 bytes. Each tarball looks like this:
+Now we very close to the topic of tar-blocks. It's just 512 bytes of data - either the tar header or bytes of the file written consecutively. The 512 bytes are still reserved if the last block of the file takes less than 512 bytes. Each tarball looks like this:
 
 ```
 +-------+-------+-------+-------+-------+-------+
@@ -83,7 +83,7 @@ Now we very close to the topic of tar-blocks. It's just 512 bytes of data - eith
 +-------+-------+-------+-------+-------+-------+
 ```
 
-There is a block with the tar header which specifies the size of the stored file. Next come *N* blocks with the contents of the file. So you need to move to (N + 1) * 512 bytes to move to the next file in tar. Code:
+There is a block with the tar header which specifies the size of the stored file. Next, come *N* blocks with the contents of the file. So you need to move to (N + 1) * 512 bytes to move to the next file in tar. Code:
 
 ```c
 newOffset = (1 + size/BLOCK_SIZE) * BLOCK_SIZE; /* trim by block size */
@@ -94,7 +94,7 @@ The algorithm:
 
 1. Read file name and its size from the block.
 2. Return the link to the user if the file name matches.
-3. Otherwise jump to the next block and repeat from step 1.
+3. Otherwise, jump to the next block and repeat from step 1.
 
 I had to implement strncmp analog on the loop to compare the file name:
 
@@ -148,7 +148,7 @@ const char* dxTarRead(const void* tarData, const long tarSize,
 
 Tar does not compress data but stores it in clear text. This is what allows not to allocate new memory but simply to return a pointer to an existing one.
 
-The size of the tar block is 512 bytes. In addition each file must be saved with a tar header. So a several bytes file will occupy 1 kilobyte in the tar file. Tar is a bad choise if you need to store many small files and do not compress the file.
+The size of the tar block is 512 bytes. In addition, each file must be saved with a tar header. So a several bytes file will occupy 1 kilobyte in the tar file. Tar is a bad choice if you need to store many small files and do not compress the file.
 
 
 [This article in Russian ›](https://habrahabr.ru/post/320834/) 

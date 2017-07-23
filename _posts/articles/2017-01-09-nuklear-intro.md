@@ -2,7 +2,7 @@
 layout: page
 subheadline: "GUI"
 title:  "Nuklear — ideal GUI for tiny projects?"
-teaser: "Nuklear is a library for creating immediate mode user interfaces. The library does not have any dependencies (C89 only! Only hardcore!). But also does not know how to create operating system windows or perform real rendering. Nuklear is an embedded library that provides user-friendly interfaces for rendering by already implemented application. There are examples on WinAPI, X11, SDL, Allegro, GLFW, OpenGL, DirectX. The parent of the concept was the <a href='https://github.com/ocornut/imgui'>ImGUI</a> library."
+teaser: "Nuklear is a library for creating immediate mode user interfaces. The library does not have any dependencies (C89 only! Only hardcore!). But also does not know how to create operating system windows or perform real rendering. Nuklear is an embedded library that provides user-friendly interfaces for rendering by implemented application. There are examples on WinAPI, X11, SDL, Allegro, GLFW, OpenGL, DirectX. The parent of the concept was the <a href='https://github.com/ocornut/imgui'>ImGUI</a> library."
 categories: articles
 tags:
     - articles
@@ -29,14 +29,14 @@ Is Nuklear something specific? It has a small size (about 15 thousand lines of c
 
 ### Formulation of the problem
 
-I often have problems for solving of which I have to write small utilities in several hundred lines of code. Usually the result is a console application, which no one can really use except me. Can a simple GUI make these utilities more convenient?
+I often have problems for solving of which I have to write small utilities in several hundred lines of code. Usually, the result is a console application, which no one can really use except me. Can a simple GUI make these utilities more convenient?
 
 The requirements to the result:
 
 1. Small size, up to hundreds of kilobytes.
 2. Cross-platform, to begin with, at least Windows and Linux.
 3. No dependency on external libraries in Windows, everything should be in one EXE file.
-4. A decent / beautiful appearance.
+4. A decent/beautiful appearance.
 5. Support images in JPG and PNG formats.
 6. Ease of development, the ability to develop in Windows and Linux.
 
@@ -45,14 +45,14 @@ Will Nuklear succeed?
 ![Nuklear node edit example]({{ site.urlimg }}other/nk/node-edit.png "Nuklear node edit example")
 
 
-For example, let's look at the creation of the utility [dxBin2h]({{ site.url }}/tools/dxbin2h/) - it reads the file byte by byte and writes it as a C-array. The program has some sorts of "buns", such as removing unnecessary characters etc. Usuall ysmall utilities are created for the sake of a third-party functionality... For example dxBin2h was created for [Winter Novel]({{ site.url }}/games/winternovel/), for preprocessing ASCII files.
+For example, let's look at the creation of the utility [dxBin2h]({{ site.url }}/tools/dxbin2h/) - it reads the file byte by byte and writes it as a C-array. The program has some sorts of "buns", such as removing unnecessary characters etc. Usually, small utilities are created for the sake of a third-party functionality... For example, dxBin2h was created for [Winter Novel]({{ site.url }}/games/winternovel/), for preprocessing ASCII files.
 
 
 ### Ease of development, cross-platform
 
 ![Nuklear gwen skin]({{ site.urlimg }}other/nk/gwen-skin.png "Nuklear gwen skin"){: .right }
 
-There should not exists any problems with the simplicity of development, right? After all, the library was created with focus on the simplicity. YOu can find simple exmple directly in Readme on GitHub. Absolutely clear and concise 20 lines of code give a beautiful and clear result.
+There should not exist any problems with the simplicity of development, right? After all, the library was created with a focus on the simplicity. You can find simple example directly in Readme on GitHub. Absolutely clear and concise 20 lines of code give a beautiful and clear result.
 
 ```c
 /* init gui state */
@@ -90,7 +90,7 @@ if (nk_begin(&ctx, "Show", nk_rect(50, 50, 220, 220),
 nk_end(&ctx);
 ```
 
-But not everything is so simple. The GUI calculation part is really simple. But there must be a renderer too. Go to the [demo](https://github.com/vurtun/nuklear/tree/master/demo) folder, choose the one you like. I'm sure it will not be exactly 20 lines, not even 200.  Moreover, all examples draws approximately the same result, but the code is significantly different because of the render.
+But not everything is so simple. The GUI calculation part is really simple. But there must be a renderer too. Go to the [demo](https://github.com/vurtun/nuklear/tree/master/demo) folder, choose the one you like. I'm sure it will not be exactly 20 lines, not even 200.  Moreover, all examples draw approximately the same result, but the code is significantly different because of the render.
 
 Example of WinAPI initialization for Nuklear:
 
@@ -174,7 +174,7 @@ main(int argc, char* argv[])
 
 Well, let's take the SDL2 with OpenGL renderer and get the resulting application for Windows, Linux, Mac OS X, Android, iOS etc! All is super. The only problem here that SDL is not presented in standard Windows. So you have to drag along with you. This violates the first requirement (small size), because the SDL itself weighs about a megabyte.
 
-But in the examples list you can see GDI+ which is in Windows starting with XP. GDI+ can ttf-fonts, PNG and JPG pictures, load resources from memory. So there will be 2 possible renderers: GDI+ for Windows and SDL for all other cases. You can place a piece of rendering-dependent code into a separate C-file ([nuklear_cross.c](https://github.com/DeXP/dxBin2h/blob/master/GUI/nuklear_cross.c)). Then the main code will not be overloaded and it will be possible to focus on the interface, which greatly simplifies development. An additional advantage is compilation acceleration - Nuklear will be compiled into a separate object file which will rarely change.
+But in the examples you can see GDI+, which is in Windows starting with XP. GDI+ can TTF-fonts, PNG and JPG pictures, load resources from memory. So there will be 2 possible renderers: GDI+ for Windows and SDL for all other cases. You can place a piece of rendering-dependent code into a separate C-file ([nuklear_cross.c](https://github.com/DeXP/dxBin2h/blob/master/GUI/nuklear_cross.c)). Then the main code will not be overloaded and it will be possible to focus on the interface, which greatly simplifies development. An additional advantage is compilation acceleration - Nuklear will be compiled into a separate object file which will rarely change.
 
 Windows, GDI+ renderer, Arial 12pt font:
 
@@ -190,7 +190,7 @@ The application looks very different! And the first thing that catches your eye 
 
 ### Font
 
-You need to use the same font to make the application look the same in all operating systems. It would be great to take any system font which is guaranteed to be everywhere. But there is no such font. Therefore, the font must be included in application. Ttf-fonts usually occupy hundreds of kilobytes. But you can create a subsets with the necessary symbols only. [FontSquirrel web service](https://www.fontsquirrel.com/tools/webfont-generator) is a good start. DejaVu Serif was stuck up to 40kb, although it contains Cyrillic, Polish and a whole bunch of languages.
+You need to use the same font to make the application look the same on all operating systems. It would be great to take any system font which is guaranteed to be everywhere. But there is no such font. Therefore, the font must be included in the application. Ttf-fonts usually occupy hundreds of kilobytes. But you can create subsets with the necessary symbols only. [FontSquirrel web service](https://www.fontsquirrel.com/tools/webfont-generator) is a good start. DejaVu Serif was stuck up to 40kb, although it contains Cyrillic, Polish and a whole bunch of languages.
 
 Everything would be fine, but GDI+ driver for Nuklear could not load a font from memory, only from a file. I had [to correct](https://github.com/vurtun/nuklear/pull/318)... By the way, you can include the font into your application with the [dxBin2h]({{ site.url }}/tools/dxbin2h/).
 
@@ -212,7 +212,7 @@ It's much better. But I do not like the look of the checkboxes. And I would like
 
 ![Nuklear displays images]({{ site.urlimg }}other/nk/nk-img.png "Nuklear displays images"){: .right }
 
-Both SDL2 and GDI+ are able to load a pictures. But there is an additional dependency for SDL when loading JPG and PNG - SDL_image. It is pretty simple to get rid of: use [stb_image.h](https://github.com/nothings/stb) if the project is compiling with SDL.
+Both SDL2 and GDI+ are able to load pictures. But there is an additional dependency for SDL when loading JPG and PNG - SDL_image. It is pretty simple to get rid of: use [stb_image.h](https://github.com/nothings/stb) if the project is compiling with SDL.
 
 Not everything was good with GDI+ either. Namely, the GDI+ driver for Nuklear was not able to render images using GDI+. I had to implement it myself ([Pull Request](https://github.com/vurtun/nuklear/pull/316)). Now everything is fixed and the code in the official repository.
 
@@ -237,7 +237,7 @@ struct nk_image dxNkLoadImageFromMem(const void* buf, int bufSize){
 
 ### Appearance of the application
 
-There is a mechanism for setting styles in Nuklear to change the look of the checkboxes. Enadled and disabled checkboxes are separate PNG images. The red theme from Nuklear examples ([style.c](https://github.com/vurtun/nuklear/blob/master/demo/style.c) file) is set:
+There is a mechanism for setting styles in Nuklear to change the look of the check boxes. Enabled and disabled check boxes are separate PNG images. The red theme from Nuklear examples ([style.c](https://github.com/vurtun/nuklear/blob/master/demo/style.c) file) is set:
 
 ```c
     nk_image checked = dxNkLoadImageFromMem( 
@@ -269,7 +269,7 @@ Linux:
 
 ### What in the end?
 
-- Windows EXE 200 kb after compiling, 90kb after UPX. In Linux the application size is on average 100kb larger because of the stb_image .
+- Windows EXE 200 kb after compiling, 90kb after UPX. The application size in Linux is 100kb larger because of the stb_image.
 - Runs correctly on Windows and Linux.
 - Font and pictures are stored as arrays in the application memory. No dependencies not from WinAPI in Windows.
 - The engine changes the style of the application.
@@ -282,7 +282,7 @@ Linux:
 - Different font smoothing in different operating systems
 - Different checkbox sizes
 - Different support for images (when using stb_image you need to avoid problematic images)
-- Not full support for unicode with a truncated font
+- Not full support for Unicode with a truncated font
 - There is no example on the technologies of Mac OS X
 
 
@@ -296,7 +296,7 @@ Linux:
 
 ### Conclusion
 
-The application looks a little different in different operating systems. However, the differences are insignificant, the result satisfied me. Nuklear is not in the category "I'm sure it will work everywhere and without testing." But it is in the category "If that is necessary - I can easily finish it".
+The application looks a little different on different operating systems. However, the differences are insignificant, the result satisfied me. Nuklear is not in the category "I'm sure it will work everywhere and without testing." But it is in the category "If that is necessary - I can easily finish it".
 
 
 ### Useful links

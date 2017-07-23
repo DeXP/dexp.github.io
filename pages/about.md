@@ -34,9 +34,9 @@ For web applications I prefer PHP for dynamic applications, and Jekyll for stati
 
 [![DeXPeriX gamedev CV]({{ site.urlimg }}other/Hrabrov_CV_gamedev.png "DeXPeriX gamedev CV")]({{ site.url }}/download/Hrabrov_CV_gamedev.pdf)
 
-[Gamedev CV ›]({{ site.url }}/download/Hrabrov_CV_gamedev.pdf)
+[Gamedev CV ›]({{ site.url }}/download/Hrabrov_CV_gamedev.pdf) 
 {: .t30 .button .radius .info}
-[Tools CV ›]({{ site.url }}/download/Hrabrov_CV_tools.pdf)
+[Tools CV ›]({{ site.url }}/download/Hrabrov_CV_tools.pdf) 
 {: .t30 .button .radius .success}
-[Web CV ›]({{ site.url }}/download/Hrabrov_CV_web.pdf)
+[Web CV ›]({{ site.url }}/download/Hrabrov_CV_web.pdf) 
 {: .t30 .button .radius .warning}
