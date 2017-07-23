@@ -21,6 +21,7 @@ header:
 		<h3>Useful links:</h3>
 		<ul>
 			<li><a href="https://github.com/DeXP">GitHub</a></li>
+			<li><a href="{{ site.url }}/download/Hrabrov_CV_web.pdf">DeXPeriX's Web CV</a></li>
 		</ul>
 	</div>
 	</div><!-- /.medium-5.columns -->

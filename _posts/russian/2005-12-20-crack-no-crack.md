@@ -10,6 +10,8 @@ tags:
     - winapi
 #image:
 #   thumb: "thumb/w2bf.png"
+header:
+    image_fullwidth: "matrix.jpg"
 redirect_from:
   - "/articles/+blp+en.html"
   - "/articles/+blp+ru.html"

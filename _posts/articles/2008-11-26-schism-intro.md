@@ -10,7 +10,9 @@ tags:
     - track music
     - linux
 image:
-   thumb: "thumb/schism.png"
+    thumb: "thumb/schism.png"
+header:
+    image_fullwidth: "other/schi/s07.png"
 redirect_from:
   - "/articles/track-music/schism-intro+blp+en.html"
   - "/articles/track-music/schism-intro+blp+ru.html"

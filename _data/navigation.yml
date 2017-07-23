@@ -17,6 +17,10 @@
   url: "/sites/"
   side: left
 
+- title: Articles
+  url: "/articles/"
+  side: left
+
 - title: Russian
   url: "/russian/"
   side: left

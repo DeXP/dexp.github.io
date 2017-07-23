@@ -8,10 +8,15 @@ tags:
     - articles
     - linux
     - archivers
+    - tar
     - c
     - low level
+    - tiny
 image:
    thumb: "thumb/dxTarRead-article.png"
+header:
+    image_fullwidth: "matrix.jpg"
+comments: true
 ---
 
 ```
@@ -26,7 +31,7 @@ __________________        ____________________________________________
 
 In fact, everything is not so difficult. The documentation described that tar is just a way to write multiple files to tape. So everything should be simple. In fact - a set of auxiliary information for each file, than its contents directly. Only understanding of this fact allowed me to write the reader of tar-files in 26 lines.
 
-Why should tar be used instead zip? For me the question of using tar comes when I wanted to get the archiver "for free" in my tiny C-applications. With minimal growth of the executable and without unnecessary dependencies. For example, the [dxPmdxConverter](https://github.com/DeXP/dxPmdxConverter) utility can read BMP and convert it to PNG using [LodePNG](http://lodev.org/lodepng/). So the application already has a functional that "archives" an array of pixels into a compressed PNG format. PNG is compressed by the [Deflate](https://en.wikipedia.org/wiki/DEFLATE) algorithm, which is used in zip and gzip. Moreover, it used directly in gzip - the gzip header is written, than the data stream from Deflate, than the crc-sum. The output is a ready .gz file which can be opened by any archiver. However, gzip can compress only one file. So you need to combine several files into one before compression. The most common way to do this is tar.
+Why should tar be used instead zip? For me the question of using tar comes when I wanted to get the archiver "for free" in my tiny C-applications. With minimal growth of the executable and without unnecessary dependencies. For example, the [dxPmdxConverter]({{ site.url }}/tools/dxpmdxconverter/) utility can read BMP and convert it to PNG using [LodePNG](http://lodev.org/lodepng/). So the application already has a functional that "archives" an array of pixels into a compressed PNG format. PNG is compressed by the [Deflate](https://en.wikipedia.org/wiki/DEFLATE) algorithm, which is used in zip and gzip. Moreover, it used directly in gzip - the gzip header is written, than the data stream from Deflate, than the crc-sum. The output is a ready .gz file which can be opened by any archiver. However, gzip can compress only one file. So you need to combine several files into one before compression. The most common way to do this is tar.
 
 ```
  ____  _   _  ____      __  ____        __ _       _            __   ____ ______       
@@ -37,7 +42,7 @@ Why should tar be used instead zip? For me the question of using tar comes when 
                                                                                 |_|
 ``` 
 
-Next time I needed tar in a similar situation. I wanted not simple store the resources for [Wordlase]({{ site.url }}/games/wordlase/) game, but archive and compress them. I can pack resources for a really long time on my machine. But the resources will be unpacked every time when user starts the game. So the solution should work quickly. Public domain implementation of the compression algorithm was found on the Internet, but it can pack only one file. Thats how hero of this publication was born - [dxTarRead](https://github.com/DeXP/dxTarRead/).
+Next time I needed tar in a similar situation. I wanted not simple store the resources for [Wordlase]({{ site.url }}/games/wordlase/) game, but archive and compress them. I can pack resources for a really long time on my machine. But the resources will be unpacked every time when user starts the game. So the solution should work quickly. Public domain implementation of the compression algorithm was found on the Internet, but it can pack only one file. Thats how hero of this publication was born - [dxTarRead]({{ site.url }}/tools/dxtarread/).
 
 Advantages of dxTarRead:
 
@@ -146,8 +151,10 @@ Tar does not compress data but stores it in clear text. This is what allows not 
 The size of the tar block is 512 bytes. In addition each file must be saved with a tar header. So a several bytes file will occupy 1 kilobyte in the tar file. Tar is a bad choise if you need to store many small files and do not compress the file.
 
 
-[This article in Russian ›](https://habrahabr.ru/post/320834/)
+[This article in Russian ›](https://habrahabr.ru/post/320834/) 
 {: .t30 .button .radius}
+[dxTarRead on GitHub ›](https://github.com/DeXP/dxTarRead)
+{: .t30 .button .radius .success}
 
 
 ## Other Articles

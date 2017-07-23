@@ -24,6 +24,7 @@ header:
 			<li><a href="http://store.steampowered.com/search/?developer=DeXP">All games in Steam</a></li>
 			<li><a href="https://play.google.com/store/apps/dev?id=7932817826050175353">Google Play developer</a></li>
 			<li><a href="https://github.com/DeXP">GitHub</a></li>
+			<li><a href="{{ site.url }}/download/Hrabrov_CV_gamedev.pdf">DeXPeriX's Gamedev CV</a></li>
 		</ul>
 	</div>
 	</div><!-- /.medium-5.columns -->
