@@ -26,7 +26,7 @@ author: dexperix
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'https://dexp.in'
+url: 'https://dexp.github.io'
 #baseurl: '/feeling-responsive'
 baseurl: ''
 
@@ -40,7 +40,7 @@ improve_content: https://github.com/DeXP/dexp.github.io/edit/gh-pages
 # Example: <img src="{{ site.urlimg }}{{ post.image.title }}" />
 # Markdown-Example for posts ![Image Text]({{ site.urlimg }}image.jpg)
 #
-urlimg: 'https://dexp.in/images/'
+urlimg: 'https://dexp.github.io/images/'
 
 
 # Logo size is 600x80 pixels
