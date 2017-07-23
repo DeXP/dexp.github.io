@@ -1,4 +1,14 @@
-- menu_name: "Dankeschön"
+- menu_name: "Useful links"
+
+- name: "Phlow"
+  url: "http://phlow.de/"
+  class: "rss-link"
+  title: "Theme author"
+
+- name: "Feeling Responsive"
+  url: "http://phlow.github.io/feeling-responsive/"
+  class: "sitemap-link"
+  title: "Theme link"
 
 - name: "Icons by Daniel Bruce"
   url: "http://entypo.com/"
@@ -10,12 +20,3 @@
   class: "services-newsletter"
   title: "Built on Foundation"
 
-- name: "Images by Unsplash"
-  url: "http://unsplash.com/"
-  class: "rss-link"
-  title: "Images by Unsplash"
-
-- name: "Using Backstretch by Scott Robbin"
-  url: "http://srobbin.com/jquery-plugins/backstretch/"
-  class: "sitemap-link"
-  title: "Using Backstretch by Scott Robbin"
