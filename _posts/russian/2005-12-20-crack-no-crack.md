@@ -11,14 +11,14 @@ tags:
 #image:
 #   thumb: "thumb/w2bf.png"
 header:
-    image_fullwidth: "matrix.jpg"
+    image_fullwidth: "head/matrix.jpg"
 redirect_from:
-  - "/articles/+blp+en.html"
-  - "/articles/+blp+ru.html"
-  - "/articles/+npi+en.html"
-  - "/articles/+npi+ru.html"
-  - "/articles/+gray+en.html"
-  - "/articles/+gray+ru.html"
+  - "/articles/hack/crack_no_crack+blp+en.html"
+  - "/articles/hack/crack_no_crack+blp+ru.html"
+  - "/articles/hack/crack_no_crack+npi+en.html"
+  - "/articles/hack/crack_no_crack+npi+ru.html"
+  - "/articles/hack/crack_no_crack+gray+en.html"
+  - "/articles/hack/crack_no_crack+gray+ru.html"
 ---
 
 - **Системные требования :** мозги, руки (желательно прямые), знание WinAPI функций приветствуется.

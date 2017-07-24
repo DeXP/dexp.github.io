@@ -30,6 +30,8 @@ url: 'https://dexp.github.io'
 #baseurl: '/feeling-responsive'
 baseurl: ''
 
+release_url: 'https://github.com/DeXP/dexp.github.io/releases/download/'
+
 # This is for the editing function in _/includes/improve_content
 # Leave it empty if your site is not on GitHub/GitHub Pages
 improve_content: https://github.com/DeXP/dexp.github.io/edit/gh-pages
@@ -47,12 +49,12 @@ urlimg: 'https://dexp.github.io/images/'
 logo: "logo.png"
 
 # Gems
-plugins: 
+gems: 
   - jekyll-paginate
   - jekyll-redirect-from
 
-whitelist:
-  - jekyll-redirect-from
+#whitelist:
+#  - jekyll-redirect-from
 
 #       ____              _             __  _
 #      / __ \____ _____ _(_)___  ____ _/ /_(_)___  ____

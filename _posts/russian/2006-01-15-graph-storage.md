@@ -14,12 +14,12 @@ tags:
 #image:
 #   thumb: "thumb/w2bf.png"
 redirect_from:
-  - "/articles/+blp+en.html"
-  - "/articles/+blp+ru.html"
-  - "/articles/+npi+en.html"
-  - "/articles/+npi+ru.html"
-  - "/articles/+gray+en.html"
-  - "/articles/+gray+ru.html"
+  - "/articles/alg/xpanenie_grafa+blp+en.html"
+  - "/articles/alg/xpanenie_grafa+blp+ru.html"
+  - "/articles/alg/xpanenie_grafa+npi+en.html"
+  - "/articles/alg/xpanenie_grafa+npi+ru.html"
+  - "/articles/alg/xpanenie_grafa+gray+en.html"
+  - "/articles/alg/xpanenie_grafa+gray+ru.html"
 ---
 
 **Содержание:**

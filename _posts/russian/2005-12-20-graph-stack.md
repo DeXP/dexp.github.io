@@ -13,12 +13,12 @@ tags:
 #image:
 #   thumb: "thumb/w2bf.png"
 redirect_from:
-  - "/articles/+blp+en.html"
-  - "/articles/+blp+ru.html"
-  - "/articles/+npi+en.html"
-  - "/articles/+npi+ru.html"
-  - "/articles/+gray+en.html"
-  - "/articles/+gray+ru.html"
+  - "/articles/alg/graf_stack+blp+en.html"
+  - "/articles/alg/graf_stack+blp+ru.html"
+  - "/articles/alg/graf_stack+npi+en.html"
+  - "/articles/alg/graf_stack+npi+ru.html"
+  - "/articles/alg/graf_stack+gray+en.html"
+  - "/articles/alg/graf_stack+gray+ru.html"
 ---
 
 Итак, сегодня мы рассмотрим очень полезный алгоритм: агоритм поиска в глубину. Вот краткий перечень понятий, которые вы обязаны знать: граф, ориентированный/неориентированный граф, вершина, достижимая вершина, матрица смежности, описание Бержа, стек. Если Вы не знаете чего-то из вышеперечисленного, то Вам лучше не читать эту статью, т.к. всё-равно ничего не поймёте.

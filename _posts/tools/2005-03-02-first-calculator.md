@@ -23,10 +23,11 @@ redirect_from:
 
 Unlike standard Windows calculator has a pleasant appearance and a more convenient system to work with trigonometry.
 
-{% comment %}
-[Download ›]({{ site.url }}/download/w2bf.c)
+[Download Calculator ›]({{ site.release_url }}v.2005-03-02/Calc.rar) 
 {: .t30 .button .radius}
-{% endcomment %}
+[Download Skins ›]({{ site.release_url }}v.2005-03-02/Skins.rar)
+{: .t30 .button .radius .success}
+
 
 ## Other Tools
 {: .t60 }

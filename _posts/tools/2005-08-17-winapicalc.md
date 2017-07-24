@@ -35,8 +35,10 @@ There is also an example of using a standard window (MessageBox). The entire sou
 This example was written more as article than as a source.
 
 
-[Download ›]({{ site.url }}/download/WinApiCalc.dpr)
+[Download Delphi project ›]({{ site.url }}/download/WinApiCalc.dpr) 
 {: .t30 .button .radius}
+[Download WinApiCalc binary ›]({{ site.release_url }}v.2005-08-17/WinApiCalc.exe) 
+{: .t30 .button .radius .success}
 
 
 ## Other Tools

@@ -15,7 +15,7 @@ tags:
 image:
    thumb: "thumb/dxTarRead-article.png"
 header:
-    image_fullwidth: "matrix.jpg"
+    image_fullwidth: "head/matrix.jpg"
 comments: true
 ---
 

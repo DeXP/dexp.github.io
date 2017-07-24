@@ -15,7 +15,7 @@ image:
    thumb: "thumb/qtcreator-crosscompile.png"
    title: "other/qtc/qtcreator-play.png"
 header: no
-#    image_fullwidth: "matrix.jpg"
+#    image_fullwidth: "head/matrix.jpg"
 comments: true
 ---
 

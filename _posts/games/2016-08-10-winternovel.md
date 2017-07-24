@@ -13,7 +13,7 @@ tags:
 image:
    thumb: "thumb/winternovel.jpg"
 header:
-    image_fullwidth: "WinterNovel.jpg"
+    image_fullwidth: "head/WinterNovel.jpg"
 
 gallery:
     - image_url: wn/20160511205532_1.jpg

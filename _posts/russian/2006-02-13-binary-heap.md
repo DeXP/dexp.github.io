@@ -15,12 +15,12 @@ tags:
 #image:
 #   thumb: "thumb/w2bf.png"
 redirect_from:
-  - "/articles/+blp+en.html"
-  - "/articles/+blp+ru.html"
-  - "/articles/+npi+en.html"
-  - "/articles/+npi+ru.html"
-  - "/articles/+gray+en.html"
-  - "/articles/+gray+ru.html"
+  - "/articles/alg/binary_heap+blp+en.html"
+  - "/articles/alg/binary_heap+blp+ru.html"
+  - "/articles/alg/binary_heap+npi+en.html"
+  - "/articles/alg/binary_heap+npi+ru.html"
+  - "/articles/alg/binary_heap+gray+en.html"
+  - "/articles/alg/binary_heap+gray+ru.html"
 ---
 
 

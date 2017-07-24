@@ -12,12 +12,12 @@ tags:
 #image:
 #   thumb: "thumb/w2bf.png"
 redirect_from:
-  - "/articles/+blp+en.html"
-  - "/articles/+blp+ru.html"
-  - "/articles/+npi+en.html"
-  - "/articles/+npi+ru.html"
-  - "/articles/+gray+en.html"
-  - "/articles/+gray+ru.html"
+  - "/articles/alg/rec+blp+en.html"
+  - "/articles/alg/rec+blp+ru.html"
+  - "/articles/alg/rec+npi+en.html"
+  - "/articles/alg/rec+npi+ru.html"
+  - "/articles/alg/rec+gray+en.html"
+  - "/articles/alg/rec+gray+ru.html"
 ---
 
 

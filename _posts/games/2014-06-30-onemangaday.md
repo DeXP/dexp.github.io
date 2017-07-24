@@ -13,7 +13,7 @@ tags:
 image:
    thumb: "thumb/onemangaday.png"
 header:
-    image_fullwidth: "OneMangaDay.jpg"
+    image_fullwidth: "head/OneMangaDay.jpg"
 gallery:
     - image_url: omd/OMD-s0001.jpg
     - image_url: omd/OMD-s0002.jpg
