@@ -42,9 +42,16 @@ You can generate VHDL or C/C++ code of cellular automata on the "Schematic" tab.
 ![DexpCAgui - Schematic]({{ site.urlimg }}other/cagui/sch.png "DexpCAgui - Schematic")
 
 
+The utility has an Android version:
+
+![DexpCAgui - Android]({{ site.urlimg }}other/cagui/android.jpg "DexpCAgui - Android")
+
+
 
 [Download DexpCAgui binary ›]({{ site.release_url }}v.2015-07-18/DexpCAgui.zip) 
 {: .t30 .button .radius}
+[DexpCAgui for Android ›]({{ site.release_url }}v.2015-07-18/DexpCAandroid-debug.apk)
+{: .t30 .button .radius .success}
 
 
 ## Other Tools
