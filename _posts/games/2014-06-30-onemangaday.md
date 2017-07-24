@@ -43,18 +43,19 @@ Manga are comics created in Japan. The problem for most people is, as they're ma
 - Two languages: English and Russian.
 - Achievements: To get all 12 achievements you need to play about an hour or two.
 
-[Website ›](http://onemangaday.dexp.in/)
+[Website ›](http://onemangaday.dexp.in/) 
 {: .t30 .button .radius .warning}
-[Steam ›](http://store.steampowered.com/app/365070/)
+[Steam ›](http://store.steampowered.com/app/365070/) 
 {: .t30 .button .radius .info}
-[Google Play ›](https://play.google.com/store/apps/details?id=in.dexp.onemangaday)
+[Google Play ›](https://play.google.com/store/apps/details?id=in.dexp.onemangaday) 
 {: .t30 .button .radius .success}
-[Source code ›](https://github.com/DeXP/onemangaday)
+[Source code ›](https://github.com/DeXP/onemangaday) 
 {: .t30 .button .radius .alert}
 
 
 
 <iframe src="http://store.steampowered.com/widget/365070/" frameborder="0" width="646" height="190"></iframe>
+
 
 ## Other Games
 {: .t60 }
