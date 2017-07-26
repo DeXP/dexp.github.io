@@ -24,6 +24,16 @@ gallery:
     - image_url: wn/20160511210726_1.jpg
     - image_url: wn/20160511211248_1.jpg
     - image_url: wn/20160601164609_1.jpg
+buttons:
+    - caption: "Steam"
+      url: "http://store.steampowered.com/app/485350/"
+      class: "info"
+    - caption: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=in.dexp.winternovel_demo"
+      class: success
+    - caption: "Web Demo"
+      url: "http://winternovel.dexp.in/"
+      class: warning
 mediaplayer: true
 ---
 
@@ -73,13 +83,7 @@ Vibe-CRC - Walking with rainbow
 - ”Less than 1MB for download?!” Winter Novel has been made in pure C – just like how they were in the good old days.
 - 30-60 minutes of gameplay – a game for the visual novel fans and curious casual gamers alike!
 
-[Steam ›](http://store.steampowered.com/app/485350/) 
-{: .t30 .button .radius .info}
-[Google Play ›](https://play.google.com/store/apps/details?id=in.dexp.winternovel_demo) 
-{: .t30 .button .radius .success}
-[Web Demo ›](http://winternovel.dexp.in/) 
-{: .t30 .button .radius .warning}
-
+{% include buttons %}
 
 <iframe src="http://store.steampowered.com/widget/485350/" frameborder="0" width="646" height="190"></iframe>
 

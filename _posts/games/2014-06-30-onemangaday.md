@@ -27,6 +27,19 @@ gallery:
     - image_url: omd/OMD-s0010.jpg
     - image_url: omd/OMD-s0011.jpg
     - image_url: omd/OMD-s0012.jpg
+buttons:
+    - caption: "Website"
+      url: "http://onemangaday.dexp.in/"
+      class: "warning"
+    - caption: "Steam"
+      url: "http://store.steampowered.com/app/365070/"
+      class: "info"
+    - caption: "Google Play"
+      url: "https://play.google.com/store/apps/details?id=in.dexp.onemangaday"
+      class: "success"
+    - caption: "Source code"
+      url: "https://github.com/DeXP/onemangaday"
+      class: "alert"
 ---
 
 <iframe width="646" height="363" src="//www.youtube.com/embed/IMeWtNx7Br0" frameborder="0" allowfullscreen></iframe>
@@ -43,16 +56,7 @@ Manga are comics created in Japan. The problem for most people is, as they're ma
 - Two languages: English and Russian.
 - Achievements: To get all 12 achievements you need to play about an hour or two.
 
-[Website ›](http://onemangaday.dexp.in/) 
-{: .t30 .button .radius .warning}
-[Steam ›](http://store.steampowered.com/app/365070/) 
-{: .t30 .button .radius .info}
-[Google Play ›](https://play.google.com/store/apps/details?id=in.dexp.onemangaday) 
-{: .t30 .button .radius .success}
-[Source code ›](https://github.com/DeXP/onemangaday) 
-{: .t30 .button .radius .alert}
-
-
+{% include buttons %}
 
 <iframe src="http://store.steampowered.com/widget/365070/" frameborder="0" width="646" height="190"></iframe>
 
