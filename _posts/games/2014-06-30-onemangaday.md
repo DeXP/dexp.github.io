@@ -58,7 +58,7 @@ Manga are comics created in Japan. The problem for most people is, as they're ma
 
 {% include buttons %}
 
-<iframe src="http://store.steampowered.com/widget/365070/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/365070/" frameborder="0" width="646" height="190"></iframe>
 
 
 ## Other Games

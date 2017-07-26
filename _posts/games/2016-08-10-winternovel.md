@@ -85,7 +85,7 @@ Vibe-CRC - Walking with rainbow
 
 {% include buttons %}
 
-<iframe src="http://store.steampowered.com/widget/485350/" frameborder="0" width="646" height="190"></iframe>
+<iframe src="https://store.steampowered.com/widget/485350/" frameborder="0" width="646" height="190"></iframe>
 
 ## Other Games
 {: .t60 }
