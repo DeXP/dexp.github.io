@@ -26,6 +26,7 @@ redirect_from:
   - "/articles/track-music/index+npi+ru.html"
   - "/articles/track-music/index+gray+en.html"
   - "/articles/track-music/index+gray+ru.html"
+comments: true
 ---
 
 Schism Tracker is a free reimplementation of Impulse Tracker, a program used to create high quality music without the requirements of specialized, expensive equipment, and with a unique "finger feel" that is difficult to replicate in-part. The player is based on the Modplug engine, with a number of changes to improve IT playback.

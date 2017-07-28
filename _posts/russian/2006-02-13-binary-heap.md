@@ -21,6 +21,7 @@ redirect_from:
   - "/articles/alg/binary_heap+npi+ru.html"
   - "/articles/alg/binary_heap+gray+en.html"
   - "/articles/alg/binary_heap+gray+ru.html"
+comments: true
 ---
 
 

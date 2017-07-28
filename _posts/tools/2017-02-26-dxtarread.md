@@ -11,6 +11,14 @@ tags:
     - c
 image:
    thumb: "thumb/dxtarread.png"
+buttons:
+    - caption: "dxTarRead on GitHub"
+      url: "https://github.com/DeXP/dxTarRead"
+      class: "info"
+    - caption: "Article about TAR reading"
+      url: "{{ site.url }}/articles/read-tar-in-26-lines/"
+      class: success
+comments: true
 ---
 
 ![dxTarRead]({{ site.urlimg }}thumb/dxtarread.png "dxTarRead"){: .right }
@@ -25,11 +33,7 @@ image:
 - optimized for high speed routing of small archive files, stops parsing upon match
 - designed to work in pair with tinfl.c from miniz
 
-[dxTarRead on GitHub ›](https://github.com/DeXP/dxTarRead)
-{: .t30 .button .radius}
-[Article about TAR reading]({{ site.url }}/articles/read-tar-in-26-lines/)
-{: .t30 .button .radius .success}
-
+{% include buttons %}
 
 ## Other TAR
 {: .t60 }

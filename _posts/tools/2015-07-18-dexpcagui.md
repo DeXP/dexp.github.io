@@ -15,6 +15,14 @@ header:
 image:
    thumb: "thumb/dexpcagui.png"
 #   title: "other/cagui/info.png"
+buttons:
+    - caption: "Download DexpCAgui binary"
+      url: "{{ site.release_url }}v.2015-07-18/DexpCAgui.zip"
+      class: "info"
+    - caption: "DexpCAgui for Android"
+      url: "{{ site.release_url }}v.2015-07-18/DexpCAandroid-debug.apk"
+      class: success
+comments: true
 ---
 
 ![DexpCAgui - Info]({{ site.urlimg }}other/cagui/info.png "DexpCAgui - Info")
@@ -47,11 +55,7 @@ The utility has an Android version:
 ![DexpCAgui - Android]({{ site.urlimg }}other/cagui/android.jpg "DexpCAgui - Android")
 
 
-
-[Download DexpCAgui binary ›]({{ site.release_url }}v.2015-07-18/DexpCAgui.zip) 
-{: .t30 .button .radius}
-[DexpCAgui for Android ›]({{ site.release_url }}v.2015-07-18/DexpCAandroid-debug.apk)
-{: .t30 .button .radius .success}
+{% include buttons %}
 
 
 ## Other Tools

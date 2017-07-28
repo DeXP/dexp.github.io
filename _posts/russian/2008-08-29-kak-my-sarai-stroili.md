@@ -18,6 +18,7 @@ redirect_from:
   - "/blog/kak_my_sarai_stroili+npi+ru.html"
   - "/blog/kak_my_sarai_stroili+gray+en.html"
   - "/blog/kak_my_sarai_stroili+gray+ru.html"
+comments: true
 ---
 
 Утро непонятно какого дня. Ничто не предвещает беды. Просыпаюсь как обычно позже брата. И тут родители:

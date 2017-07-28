@@ -18,14 +18,17 @@ redirect_from:
   - "/sources/MaxPotok+npi+ru.html"
   - "/sources/MaxPotok+gray+en.html"
   - "/sources/MaxPotok+gray+ru.html"
+buttons:
+    - caption: "Download C++ version"
+      url: "{{ site.url }}/download/POTOK.CPP"
+      class: "info"
+    - caption: "Download Delphi version"
+      url: "{{ site.url }}/download/POTOK.DPR"
+      class: success
+comments: true
 ---
 
-[Download C++ version ›]({{ site.url }}/download/POTOK.CPP)
-{: .t30 .button .radius}
-[Download Delphi version ›]({{ site.url }}/download/POTOK.DPR)
-{: .t30 .button .radius}
-
-
+{% include buttons %}
 
 ## Other Tools
 {: .t60 }

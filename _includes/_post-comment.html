@@ -1,0 +1,22 @@
+<article id="comment{{ include.index }}">
+	{% if include.email != null and include.email != "" %}<img class=" left" width="{{ site.comments.gravatarsize }}" height="{{ site.comments.gravatarsize }}" src="https://www.gravatar.com/avatar/{{ include.email }}?d=mm&s={{ site.comments.gravatarsize }}">{% endif %}
+	<div>
+		<h3>
+			{% if (include.url) and (include.url != '@url') and (include.url != "") %}
+				<a rel="nofollow" href="{{ include.url }}">{{ include.name }}</a>
+			{% else %}
+				{{ include.name }}
+			{% endif %}
+		</h3>
+		<p>
+			{% if include.date %}
+				{% if include.index %}<a href="#comment{{ include.index }}">{% endif %}
+				{% include _format-date.html date=include.date time=true %}
+				{% if include.index %}</a>{% endif %}
+			{% endif %}
+		</p>
+		<div>
+			{{ include.message | markdownify }}
+		</div>
+	</div>
+</article>

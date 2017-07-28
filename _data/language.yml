@@ -22,3 +22,12 @@ edit: "Edit"
 this_content_is_open_source: "This content is open source."
 help_improve_it: "Help improve it"
 enter_search_term: "Enter search term and hit enter"
+
+comment_form:
+  title: "Leave a comment"
+  name: "Name"
+  email: "Email address (will not be public; for avatar only)"
+  url: "Website (optional)"
+  address: "Address (do not fill!)"
+  message: "Comment. Markdown is accepted."
+  send: "Send"

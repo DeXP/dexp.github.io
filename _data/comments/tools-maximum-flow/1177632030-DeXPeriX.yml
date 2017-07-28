@@ -1,0 +1,12 @@
+name: "DeXPeriX"
+email: "a713c94ab63e4e5184f87dcd7f0f2471"
+url: "https://dexp.in"
+address: ""
+date: 1177632030
+message: "Yes, you need to compile the program in this form in Delphi. But it was written in Borland Pascal, and \"ported\" to Delphi only because of the limitations of 16-bit Borland Pascal 7.0.
+
+
+P.S. If you need the source of the maximum flow, then you must imagine what it is. I do not see the point of doing a GUI for it - so that by stepping through debugging and understanding the meaning of the lines to your hands :))
+
+
+And about the comments - all that I have I laid out. I wrote the source code for the pseudocode from Corman - he will help you figure it out."

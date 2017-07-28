@@ -20,6 +20,7 @@ redirect_from:
   - "/articles/alg/xpanenie_grafa+npi+ru.html"
   - "/articles/alg/xpanenie_grafa+gray+en.html"
   - "/articles/alg/xpanenie_grafa+gray+ru.html"
+comments: true
 ---
 
 **Содержание:**

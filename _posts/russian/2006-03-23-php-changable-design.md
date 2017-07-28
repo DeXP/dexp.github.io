@@ -17,6 +17,7 @@ redirect_from:
   - "/articles/php/changeble_design+npi+ru.html"
   - "/articles/php/changeble_design+gray+en.html"
   - "/articles/php/changeble_design+gray+ru.html"
+comments: true
 ---
 
 Для начала рассмотрим общую модель дизайна сайта:

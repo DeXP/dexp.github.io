@@ -18,6 +18,7 @@ redirect_from:
   - "/articles/delphi/string+npi+ru.html"
   - "/articles/delphi/string+gray+en.html"
   - "/articles/delphi/string+gray+ru.html"
+comments: true
 ---
 
 <center><table width="350" height="70"><tr><td align="center" style="vertical-align: middle; background-color: #ECE9D8; padding-top: 30px"><center><table style="border-width: 1px; border-style: inset; "><tr><td height="20"><marquee height="100%" width="167" bgcolor="white" Scrollamount="4">Такая же бегущая строка будет и у вас в Delphi-приложении</marquee></td></tr></table></center></td></tr></table></center

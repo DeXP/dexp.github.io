@@ -202,6 +202,14 @@ socialmedia:
     facebook: dexperix
 
 
+
+
+comments:
+  provider: "staticman"
+  gravatarsize: 100
+staticmanUrl: "https://api.staticman.net/v2/entry/DeXP/dexp.github.io/master/comments"
+
+
 #        ____  _
 #       / __ \(_)________ ___  _______
 #      / / / / / ___/ __ `/ / / / ___/

@@ -18,17 +18,20 @@ redirect_from:
   - "/sources/kursach-skg+npi+ru.html"
   - "/sources/kursach-skg+gray+en.html"
   - "/sources/kursach-skg+gray+ru.html"
+buttons:
+    - caption: "Отчёт"
+      url: "{{ site.url }}/download/kursach-skg-otchet.pdf"
+      class: "warning"
+    - caption: "Исходники"
+      url: "{{ site.url }}/download/kursach-skg-sources.tar.bz2"
+      class: "info"
+    - caption: "Презентация"
+      url: "{{ site.url }}/download/kursach-skg-presentation.pdf"
+      class: "success"
+comments: true
 ---
 
-[Отчёт ›]({{ site.url }}/download/kursach-skg-otchet.pdf)
-{: .t30 .button .radius}
-
-[Исходники ›]({{ site.url }}/download/kursach-skg-sources.tar.bz2)
-{: .t30 .button .radius}
-
-[Презентация ›]({{ site.url }}/download/kursach-skg-presentation.pdf)
-{: .t30 .button .radius}
-
+{% include buttons %}
 
 ## Другие материалы на русском:
 {: .t60 }

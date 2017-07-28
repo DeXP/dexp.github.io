@@ -18,6 +18,7 @@ redirect_from:
   - "/articles/alg/rec+npi+ru.html"
   - "/articles/alg/rec+gray+en.html"
   - "/articles/alg/rec+gray+ru.html"
+comments: true
 ---
 
 
