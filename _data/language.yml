@@ -31,3 +31,4 @@ comment_form:
   address: "Address (do not fill!)"
   message: "Comment. Markdown is accepted."
   send: "Send"
+  send_hint: "(after comment you will be redirected back here)"
