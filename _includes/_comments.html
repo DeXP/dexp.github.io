@@ -9,7 +9,7 @@
 			<h3 id="comments" class="t60">{{ site.data.language.comments_headline }}</h3>				
 
 			{% if site.data.comments[post_slug] %}
-				{% assign comments = site.data.comments[post_slug]  %}
+				{% assign comments = site.data.comments[post_slug] | sort %}
 				
 				{% for comment in comments %}
 					{% assign email = comment[1].email %}
