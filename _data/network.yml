@@ -10,13 +10,12 @@
   class: "sitemap-link"
   title: "Theme link"
 
-- name: "Icons by Daniel Bruce"
-  url: "http://entypo.com/"
-  class: "network-entypo"
-  title: "Icons by Daniel Bruce"
-
 - name: "Built on Foundation"
   url: "http://foundation.zurb.com/"
   class: "services-newsletter"
   title: "Built on Foundation"
 
+- name: "DeXP on GitHub"
+  url: "https://github.com/DeXP"
+  class: "network-entypo"
+  title: "My GitHub account"

@@ -1,22 +1,37 @@
 - name: GitHub
-  url: http://github.com/dexp
-  class: icon-github
+  url: "http://github.com/dexp"
+  class: icon-github_alt
   title: "GitHub"
 
 - name: LinkedIn
-  url: https://www.linkedin.com/in/dexperix/
+  url: "https://www.linkedin.com/in/dexperix/"
   class: icon-linkedin
   title: "LinkedIn"
 
 - name: Steam
-  url: http://steamcommunity.com/id/dexp
-  class: icon-network
+  url: "http://steamcommunity.com/id/dexp"
+  class: icon-steam
   title: "Steam"
 
 - name: VKontakte
-  url: https://vk.com/dexperix
-  class: icon-facebook
+  url: "https://vk.com/dexperix"
+  class: icon-vk
   title: "VKontakte"
+
+- name: Facebook
+  url: "https://www.facebook.com/dexperix"
+  class: icon-facebook
+  title: "Facebook"
+
+- name: Skype
+  url: "skype:dexperix?chat"
+  class: icon-skype
+  title: "Skype"
+
+- name: Telegram
+  url: "https://t.me/DeXPeriX"
+  class: icon-telegram
+  title: "Telegram"
 
 
 #- name: YouTube
@@ -33,11 +48,6 @@
 #  url: https://plus.google.com/u/0/+Phlow
 #  class: icon-googleplus
 #  title: "YouTube Google+"
-
-# - name: Facebook
-#   url: http://www.facebook.com/
-#   class: icon-facebook
-#   title: ""
 
 # - name: Soundcloud
 #   url: http://soundcloud.com/

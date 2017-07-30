@@ -6,6 +6,16 @@ teaser: ""
 permalink: "/about/"
 header:
   image_fullwidth: "Dexp_Praha.jpg"
+buttons:
+    - caption: "Gamedev CV"
+      url: "{{ site.url }}/download/Hrabrov_CV_gamedev.pdf"
+      class: "info"
+    - caption: "Tools CV"
+      url: "{{ site.url }}/download/Hrabrov_CV_tools.pdf"
+      class: success
+    - caption: "Web CV"
+      url: "{{ site.url }}/download/Hrabrov_CV_web.pdf"
+      class: warning
 ---
 
 My name is Dmitry Hrabrov. I'm a programmer since 2004.
@@ -34,9 +44,4 @@ For web applications I prefer PHP for dynamic applications, and Jekyll for stati
 
 [![DeXPeriX gamedev CV]({{ site.urlimg }}other/Hrabrov_CV_gamedev.png "DeXPeriX gamedev CV")]({{ site.url }}/download/Hrabrov_CV_gamedev.pdf)
 
-[Gamedev CV ›]({{ site.url }}/download/Hrabrov_CV_gamedev.pdf) 
-{: .t30 .button .radius .info}
-[Tools CV ›]({{ site.url }}/download/Hrabrov_CV_tools.pdf) 
-{: .t30 .button .radius .success}
-[Web CV ›]({{ site.url }}/download/Hrabrov_CV_web.pdf) 
-{: .t30 .button .radius .warning}
+{% include buttons %}
