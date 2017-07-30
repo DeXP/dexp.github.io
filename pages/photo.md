@@ -3,7 +3,7 @@ layout: category
 title: "Photo"
 permalink: "/photo/"
 header:
-    image_fullwidth: "Dexp_Karate_Bulgaria.jpg" 
+    image_fullwidth: "Dexp_gomel_lake.jpg" 
 ---
 <div class="row">
 	<div class="medium-8 columns t30">
