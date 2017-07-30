@@ -56,22 +56,22 @@ Can they work together despite their differences? Will this relationship change 
 
 <blockquote>
 Vibe-CRC - Falling Snowflakes
-<audio src="{{ site.url }}/music/wn/FallingSnowflakes.mp3" type="audio/mp3" controls="controls"></audio>
+<audio src="{{ site.url }}/music/wn/FallingSnowflakes.mp3" type="audio/mp3" controls="controls" preload="none"></audio>
 
 Vibe-CRC - Milla
-<audio src="{{ site.url }}/music/wn/Milla.mp3" type="audio/mp3" controls="controls"></audio>
+<audio src="{{ site.url }}/music/wn/Milla.mp3" type="audio/mp3" controls="controls" preload="none"></audio>
 
 Vibe-CRC - Fairy Tale
-<audio src="{{ site.url }}/music/wn/FairyTale.mp3" type="audio/mp3" controls="controls"></audio>
+<audio src="{{ site.url }}/music/wn/FairyTale.mp3" type="audio/mp3" controls="controls" preload="none"></audio>
 
 Vibe-CRC - Nighty one
-<audio src="{{ site.url }}/music/wn/NightyOne.mp3" type="audio/mp3" controls="controls"></audio>
+<audio src="{{ site.url }}/music/wn/NightyOne.mp3" type="audio/mp3" controls="controls" preload="none"></audio>
 
 Vibe-CRC - Noisy Tones
-<audio src="{{ site.url }}/music/wn/NoisyTones.mp3" type="audio/mp3" controls="controls"></audio>
+<audio src="{{ site.url }}/music/wn/NoisyTones.mp3" type="audio/mp3" controls="controls" preload="none"></audio>
 
 Vibe-CRC - Walking with rainbow
-<audio src="{{ site.url }}/music/wn/WalkingWithRainbow.mp3" type="audio/mp3" controls="controls"></audio>
+<audio src="{{ site.url }}/music/wn/WalkingWithRainbow.mp3" type="audio/mp3" controls="controls" preload="none"></audio>
 </blockquote>
 
 &nbsp;
