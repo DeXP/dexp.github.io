@@ -13,7 +13,7 @@ header:
 	<div class="medium-4 columns t30">
 	<div class="panel radius">
 		<h3>Sites</h3>
-		<p>Here you can find website, made by DeXPeriX.</p>
+		<p>Here you can find websites, made by DeXPeriX.</p>
 		<p>Not all owned by me, but I participate in creation of each.</p>
 	</div>
 
