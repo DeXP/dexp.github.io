@@ -3,7 +3,7 @@ layout: category
 title: "Tools"
 permalink: "/tools/"
 header:
-    image_fullwidth: "Dexp_GameAcess17.jpg"
+    image_fullwidth: "Dexp_Hangar_car.jpg"
 redirect_from:
   - "/sources/index+blp+ru.html"
   - "/sources/index+blp+en.html"
