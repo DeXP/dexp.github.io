@@ -116,7 +116,7 @@ Now let's turn to the topic of the first picture of the post - to the sound. Noo
 
 And I finally heard the promised in the reviews sound quality of Poweramp. The difference in sound with Deadbeef is negligible on the mobile phone. But on the Nook sound card makes noises and squeaks. Equalizer and tone options just saved me. I also picked up the bass a bit:
 
-![Nook Simple Touch - Poweramp - preamp]({{ site.urlimg }}other/eink/poweramp.png "Nook Simple Touch - preamp")
+![Nook Simple Touch - Poweramp - preamp]({{ site.urlimg }}other/eink/poweramp-preamp.png "Nook Simple Touch - preamp")
 
 I use the preamp slider as a volume control because I could not get any of the volume adjusters to work.
 
