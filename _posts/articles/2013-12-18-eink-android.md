@@ -20,7 +20,7 @@ comments: true
 
 ![Nook Simple Touch]({{ site.urlimg }}other/eink/nook-photo.jpg "Nook Simple Touch"){: .center }
 
-But I can not give up computer hardware in general, addiction requires a new dose! Devices with an E-ink screen can help - the eyes do not hurt. I've been using Nook Simple Touch for a year now. It is immediately installed Android 2.1 with a bunch of self-written programs from Barnes & Noble. It's an old, but full-featured and full android after getting root. As an example, Nook will be used later, but by analogy, you can do similar actions on any other book with Android. So, what can you do efficiently on the reader, which applications were most useful?
+But I can not give up computer hardware in general, addiction requires a new dose! Devices with an E-ink screen can help - the eyes do not hurt. I've been using Nook Simple Touch for a year now. It is immediately installed Android 2.1 with a bunch of self-written programs from Barnes & Noble. It's an old, but full-featured and full android after getting root. As an example, Nook will be used later, but by analogy, you can do similar actions on any other book with Android. So, what can you do efficiently on the reader, which applications were the most useful?
 
 Here is a video on the capabilities of E-ink screen. I wanted the same myself immediately after watching.
 
@@ -36,7 +36,7 @@ However, [Opera Mini](https://play.google.com/store/apps/details?id=com.opera.mi
 ![Nook Simple Touch - Opera Mini]({{ site.urlimg }}other/eink/opera.png "Nook Simple Touch - Opera Mini")
 
 
-In fact, a smooth page scrolling is not so necessary. Even if you flip through the pages through the touchscreen, you can navigate through the physical passage of the finger across the screen, and not through graphical feedback. Matter of habit. Of course, not too comfortable, but the need to go to the Internet counts arises not often.
+In fact, a smooth page scrolling is not so necessary. Even if you flip through the pages through the touchscreen, you can navigate through the physical passage of the finger across the screen, and not through graphical feedback. The matter of a habit. Of course, not too convenient, but the need to go to the Internet counts arises not often.
 
 
 
@@ -136,7 +136,7 @@ If there is no fear of English and there is no desire to download something big 
 
 #### Linux!
 
-I also want to remind you that Android basically has Linux. Accordingly, it can solve many similar problems. Do you need a full-fledged web server with PHP and MySQL? [You are welcome](https://play.google.com/store/apps/details?id=ru.kslabs.ksweb). Do you interested to dig into the insides through SSH? [You are welcome](https://play.google.com/store/apps/details?id=berserker.android.apps.sshdroid). Do you want to use the console with the usual utilities from the console Vim? [You are welcome](https://play.google.com/store/apps/details?id=com.spartacusrex.spartacuside)!
+I also want to remind you that Android basically has Linux. Accordingly, it can solve many similar problems. Do you need a full-fledged web server with PHP and MySQL? [You are welcome](https://play.google.com/store/apps/details?id=ru.kslabs.ksweb). Are you interested to dig into the insides through SSH? [You are welcome](https://play.google.com/store/apps/details?id=berserker.android.apps.sshdroid). Do you want to use the console with the usual utilities from the console Vim? [You are welcome](https://play.google.com/store/apps/details?id=com.spartacusrex.spartacuside)!
 
 ![Nook Simple Touch - Midnight Commander via SSH]({{ site.urlimg }}other/eink/mc.png "Nook Simple Touch - Midnight Commander via SSH")
 

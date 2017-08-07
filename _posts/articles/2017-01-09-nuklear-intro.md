@@ -29,7 +29,7 @@ Is Nuklear something specific? It has a small size (about 15 thousand lines of c
 
 ### Formulation of the problem
 
-I often have problems for solving of which I have to write small utilities in several hundred lines of code. Usually, the result is a console application, which no one can really use except me. Can a simple GUI make these utilities more convenient?
+I often have problems to solve which I have to write small utilities in several hundred lines of code. Usually, the result is a console application, which no one can really use except me. Can a simple GUI make these utilities more convenient?
 
 The requirements to the result:
 
@@ -52,7 +52,7 @@ For example, let's look at the creation of the utility [dxBin2h]({{ site.url }}/
 
 ![Nuklear gwen skin]({{ site.urlimg }}other/nk/gwen-skin.png "Nuklear gwen skin"){: .right }
 
-There should not exist any problems with the simplicity of development, right? After all, the library was created with a focus on the simplicity. You can find simple example directly in Readme on GitHub. Absolutely clear and concise 20 lines of code give a beautiful and clear result.
+There should not exist any problems with the simplicity of development, should there? After all, the library was created with a focus on the simplicity. You can find simple example directly in Readme on GitHub. Absolutely clear and concise 20 lines of code give a beautiful and clear result.
 
 ```c
 /* init gui state */
@@ -172,7 +172,7 @@ main(int argc, char* argv[])
 
 ### No dependencies in Windows
 
-Well, let's take the SDL2 with OpenGL renderer and get the resulting application for Windows, Linux, Mac OS X, Android, iOS etc! All is super. The only problem here that SDL is not presented in standard Windows. So you have to drag along with you. This violates the first requirement (small size), because the SDL itself weighs about a megabyte.
+Well, let's take the SDL2 with OpenGL renderer and get the resulting application for Windows, Linux, Mac OS X, Android, iOS etc! All is super. The only problem here is that SDL is not presented in standard Windows. So you have to drag along with you. This violates the first requirement (small size), because the SDL itself weighs about a megabyte.
 
 But in the examples you can see GDI+, which is in Windows starting with XP. GDI+ can TTF-fonts, PNG and JPG pictures, load resources from memory. So there will be 2 possible renderers: GDI+ for Windows and SDL for all other cases. You can place a piece of rendering-dependent code into a separate C-file ([nuklear_cross.c](https://github.com/DeXP/dxBin2h/blob/master/GUI/nuklear_cross.c)). Then the main code will not be overloaded and it will be possible to focus on the interface, which greatly simplifies development. An additional advantage is compilation acceleration - Nuklear will be compiled into a separate object file which will rarely change.
 
@@ -190,7 +190,7 @@ The application looks very different! And the first thing that catches your eye 
 
 ### Font
 
-You need to use the same font to make the application look the same on all operating systems. It would be great to take any system font which is guaranteed to be everywhere. But there is no such font. Therefore, the font must be included in the application. Ttf-fonts usually occupy hundreds of kilobytes. But you can create subsets with the necessary symbols only. [FontSquirrel web service](https://www.fontsquirrel.com/tools/webfont-generator) is a good start. DejaVu Serif was stuck up to 40kb, although it contains Cyrillic, Polish and a whole bunch of languages.
+You need to use the same font to make the application look the same on all operating systems. It would be great to take any system font which is guaranteed to be everywhere. But there is no such a font. Therefore, the font must be included in the application. Ttf-fonts usually occupy hundreds of kilobytes. But you can create subsets with the necessary symbols only. [FontSquirrel web service](https://www.fontsquirrel.com/tools/webfont-generator) is a good start. DejaVu Serif was stuck up to 40kb, although it contains Cyrillic, Polish and a whole bunch of languages.
 
 Everything would be fine, but GDI+ driver for Nuklear could not load a font from memory, only from a file. I had [to correct](https://github.com/vurtun/nuklear/pull/318)... By the way, you can include the font into your application with the [dxBin2h]({{ site.url }}/tools/dxbin2h/).
 
@@ -214,7 +214,7 @@ It's much better. But I do not like the look of the checkboxes. And I would like
 
 Both SDL2 and GDI+ are able to load pictures. But there is an additional dependency for SDL when loading JPG and PNG - SDL_image. It is pretty simple to get rid of: use [stb_image.h](https://github.com/nothings/stb) if the project is compiling with SDL.
 
-Not everything was good with GDI+ either. Namely, the GDI+ driver for Nuklear was not able to render images using GDI+. I had to implement it myself ([Pull Request](https://github.com/vurtun/nuklear/pull/316)). Now everything is fixed and the code in the official repository.
+Not everything was good with GDI+ either. Namely, the GDI+ driver for Nuklear was not able to render images using GDI+. I had to implement it myself ([Pull Request](https://github.com/vurtun/nuklear/pull/316)). Now everything is fixed and the code is in the official repository.
 
 The code for loading the image via stb_image for OpenGL:
 
@@ -267,7 +267,7 @@ Linux:
 ![dxBin2h, Linux, skinned]({{ site.urlimg }}other/nk/b3-lin.png "dxBin2h, Linux, skinned")
 
 
-### What in the end?
+### What's in the end?
 
 - Windows EXE 200 kb after compiling, 90kb after UPX. The application size in Linux is 100kb larger because of the stb_image.
 - Runs correctly on Windows and Linux.

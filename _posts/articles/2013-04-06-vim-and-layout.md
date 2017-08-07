@@ -2,7 +2,7 @@
 layout: page
 subheadline: "Vim"
 title:  "Vim and keyboard layout switching"
-teaser: 'All Vim commands need to be entered in English. This is a problem if the main text is entered in some other language because you need to frequently switch the layout. One of the solutions makes you get used to a new hotkey to switch layout. Also, there are many platform-dependent solutions with the call of various utilities. The goal of the vim-xkbswitch plug-in is to provide uniform behavior for many operating systems and languages.'
+teaser: 'All Vim commands need to be entered in English. This is a problem if the main text is entered in some other language because you often need to switch the layout. One of the solutions makes you get used to a new hotkey to switch layout. Also, there are many platform-dependent solutions with the call of various utilities. The goal of the vim-xkbswitch plug-in is to provide uniform behavior for many operating systems and languages.'
 categories: articles
 tags:
     - articles

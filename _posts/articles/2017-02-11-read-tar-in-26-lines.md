@@ -15,8 +15,15 @@ tags:
 image:
    thumb: "thumb/dxTarRead-article.png"
 header:
-    image_fullwidth: "head/matrix.jpg"
+    image_fullwidth: "head/matrix.png"
 comments: true
+buttons:
+    - caption: "This article in Russian"
+      url: "https://habrahabr.ru/post/320834/"
+      class: ""
+    - caption: "dxTarRead on GitHub"
+      url: "https://github.com/DeXP/dxTarRead"
+      class: "success"
 ---
 
 ```
@@ -31,7 +38,7 @@ __________________        ____________________________________________
 
 In fact, everything is not so difficult. The documentation described that tar is just a way to write multiple files to tape. So everything should be simple. In fact - a set of auxiliary information for each file, then its contents directly. Only understanding of this fact allowed me to write the reader of tar-files in 26 lines.
 
-Why should tar be used instead zip? For me, the question of using tar comes when I wanted to get the archiver "for free" in my tiny C-applications. With a minimal growth of the executable and without unnecessary dependencies. For example, the [dxPmdxConverter]({{ site.baseurl }}/tools/dxpmdxconverter/) utility can read BMP and convert it to PNG using [LodePNG](http://lodev.org/lodepng/). So the application already has a function that "archives" an array of pixels into a compressed PNG format. PNG is compressed by the [Deflate](https://en.wikipedia.org/wiki/DEFLATE) algorithm, which is used in zip and gzip. Moreover, it used directly in gzip - the gzip header is written, then the data stream from Deflate, then the crc-sum. The output is a ready .gz file which can be opened by any archiver. However, gzip can compress only one file. So you need to combine several files into one before compression. The most common way to do this is tar.
+Why should tar be used instead of zip? The question of using tar rose for me when I wanted to get the archiver "for free" in my tiny C-applications. With a minimal growth of the executable and without unnecessary dependencies. For example, the [dxPmdxConverter]({{ site.baseurl }}/tools/dxpmdxconverter/) utility can read BMP and convert it to PNG using [LodePNG](http://lodev.org/lodepng/). So the application already has a function that "archives" an array of pixels into a compressed PNG format. PNG is compressed by the [Deflate](https://en.wikipedia.org/wiki/DEFLATE) algorithm, which is used in zip and gzip. Moreover, it is used directly in gzip - the gzip header is written, then the data stream from Deflate, then the crc-sum. The output is a ready .gz file which can be opened by any archiver. However, gzip can compress only one file. So you need to combine several files into one before compression. The most common way to do this is tar.
 
 ```
  ____  _   _  ____      __  ____        __ _       _            __   ____ ______       
@@ -42,7 +49,7 @@ Why should tar be used instead zip? For me, the question of using tar comes when
                                                                                 |_|
 ``` 
 
-Next time I needed tar in a similar situation. I wanted not simply store the resources for [Wordlase]({{ site.url }}/games/wordlase/) game, but archive and compress them. I can pack resources for a really long time on my machine. But the resources will be unpacked every time when a user starts the game. So the solution should work quickly. Public domain implementation of the compression algorithm was found on the Internet, but it can pack only one file. That's how the hero of this publication was born - [dxTarRead]({{ site.baseurl }}/tools/dxtarread/).
+Next time I needed tar in a similar situation. I wanted not only store the resources for [Wordlase]({{ site.url }}/games/wordlase/) game, but to archive and compress them. I can pack resources for a really long time on my machine. But the resources will be unpacked every time when a user starts the game. So the solution should work quickly. Public domain implementation of the compression algorithm was found on the Internet, but it can pack only one file. That's how the hero of this publication was born - [dxTarRead]({{ site.baseurl }}/tools/dxtarread/).
 
 Advantages of dxTarRead:
 
@@ -75,7 +82,7 @@ for(i=SZ_SIZE-2, mul=1; i>=0; mul*=8, i--) /* Octal str to int */
     if( (sz[i]>='1') && (sz[i] <= '9') ) size += (sz[i] - '0') * mul;
 ```
 
-Now we very close to the topic of tar-blocks. It's just 512 bytes of data - either the tar header or bytes of the file written consecutively. The 512 bytes are still reserved if the last block of the file takes less than 512 bytes. Each tarball looks like this:
+Now we are very close to the topic of tar-blocks. It's just 512 bytes of data - either the tar header or bytes of the file written consecutively. The 512 bytes are still reserved if the last block of the file takes less than 512 bytes. Each tarball looks like this:
 
 ```
 +-------+-------+-------+-------+-------+-------+
@@ -146,15 +153,14 @@ const char* dxTarRead(const void* tarData, const long tarSize,
 
 ### Conclusion
 
-Tar does not compress data but stores it in clear text. This is what allows not to allocate new memory but simply to return a pointer to an existing one.
+Tar does not compress data but stores it in a clear text. This is what allows not to allocate new memory but simply to return a pointer to an existing one.
 
 The size of the tar block is 512 bytes. In addition, each file must be saved with a tar header. So a several bytes file will occupy 1 kilobyte in the tar file. Tar is a bad choice if you need to store many small files and do not compress the file.
 
 
-[This article in Russian ›](https://habrahabr.ru/post/320834/) 
-{: .t30 .button .radius}
-[dxTarRead on GitHub ›](https://github.com/DeXP/dxTarRead)
-{: .t30 .button .radius .success}
+&nbsp;
+
+{% include buttons %}
 
 
 ## Other Articles

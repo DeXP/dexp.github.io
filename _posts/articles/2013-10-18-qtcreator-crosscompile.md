@@ -46,7 +46,7 @@ Next, *make && sudo make install*. The native system compiler is used at the fir
 
 I have PE32+ DLLs in my */usr/local/qt4win64/bin* after installation. And a few ELF 64-bit LSB executables: qmake, uic, moc, rcc. They will be used in QtCreator!
 
-Do not delete the unpacked directory after installation  - it will be used.
+Do not delete the unpacked directory after installation as it will be used.
 
 
 
