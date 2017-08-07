@@ -1,8 +1,8 @@
 - menu_name: "Services"
 
-- name: "About"
-  url: "/about/"
-  title: "About"
+#- name: "About"
+#  url: "/about/"
+#  title: "About"
 
 - name: "RSS"
   url: "/feed.xml"

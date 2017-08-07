@@ -14,7 +14,7 @@ header:
 	<div class="panel radius">
 		<h3>Games</h3>
 		<p>Here you can find games, made by DeXPeriX.</p>
-		<p>Some of them was made from the ground, some uses ready engine.</p>
+		<p>Some of them were made from the ground, some use a ready engine.</p>
 		<p>There are freeware and shareware games. You can play each one on Steam.</p>
 	</div>
 

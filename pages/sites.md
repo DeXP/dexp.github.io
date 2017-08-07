@@ -14,7 +14,7 @@ header:
 	<div class="panel radius">
 		<h3>Sites</h3>
 		<p>Here you can find websites, made by DeXPeriX.</p>
-		<p>Not all owned by me, but I participate in creation of each.</p>
+		<p>Not all owned by me, but I participate in the creation of each.</p>
 	</div>
 
 	<div class="panel radius">
@@ -24,5 +24,6 @@ header:
 			<li><a href="{{ site.url }}/download/Hrabrov_CV_web.pdf">DeXPeriX's Web CV</a></li>
 		</ul>
 	</div>
+
 	</div><!-- /.medium-5.columns -->
 </div><!-- /.row -->

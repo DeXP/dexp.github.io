@@ -21,7 +21,7 @@ redirect_from:
 	<div class="medium-4 columns t30">
 	<div class="panel radius">
 		<h3>Articles</h3>
-		<p>A lof of text. For those, who loves reading.</p>
+		<p>A lot of text. For those, who loves reading.</p>
 	</div>
 
 	<div class="panel radius">
