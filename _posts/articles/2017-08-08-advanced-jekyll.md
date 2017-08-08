@@ -13,8 +13,8 @@ tags:
     - web
 image:
    thumb: "thumb/advanced-jekyll.png"
-#header: 
-#    image_fullwidth: "other/jekyll/logo-2x.png"
+header: 
+    image_fullwidth: "head/jekyll.png"
 comments: true
 gallery:
     - image_url: omd/OMD-s0001.jpg
@@ -34,8 +34,6 @@ buttons:
       class: "success"
 ---
 
-![Jekyll logo]({{ site.urlimg }}other/jekyll/logo-2x.png "Jekyll logo"){: .center}
-
 **Table of contents:**
 {: #toc }
 *  TOC
@@ -46,7 +44,7 @@ buttons:
 
 ### Static HTML
 
-[Github Pages](https://pages.github.com/) use Jekyll as generator engine. Can GitHub Pages be used without any Jekyll? Yes! You can use GitHub Pages as a simple HTML hosting (it's free!) if you have a site generated in some other place.
+[Github Pages](https://pages.github.com/) use Jekyll as generator engine. Can GitHub Pages be used without any Jekyll? Yes! You can use GitHub Pages as a simple HTML hosting (it's free) if you have a site generated in some other place.
 
 [![Winter Novel web demo]({{ site.urlimg }}other/jekyll/wn-demo.png "Winter Novel web demo")](https://winternovel.dexp.in)
 
@@ -76,7 +74,7 @@ You can use domain names of any levels. For example, [dexp.in](https://dexp.in) 
 
 ### CloudFlare
 
-Another great free service is [CloudFlare](https://www.cloudflare.com). You need a DNS manager for you domains anyway. But CloudFlare not only a DNS manager but a CDN too! It means that CloudFlare can cache your pages and show them even if GitHub Pages will be down.
+Another great free service is [CloudFlare](https://www.cloudflare.com). You need a DNS manager for you domains anyway. But CloudFlare not only a DNS manager but a CDN too. It means that CloudFlare can cache your pages and show them even if GitHub Pages will be down.
 
 ![dexp.in on CloidFlare]({{ site.urlimg }}other/jekyll/cloudflare-dexp-in.png "dexp.in on CloidFlare")
 
@@ -87,7 +85,7 @@ Main domain directly points to GitHub's IP's. Subdomains were made via cname ali
 
 ### Markdown
 
-Jekyll supports both HTML and Markdown for writing posts. HTML gives you more opportunities, but too heavy. Markdown is really cool for writing any texts! 
+Jekyll supports both HTML and Markdown for writing posts. HTML gives you more opportunities, but too heavy. Markdown is really cool for writing any texts. 
 
 Examples of [HTML post](https://github.com/DeXP/onemangaday/blob/gh-pages/tutorials/_posts/2014-12-25-making-site-in-comipo.html):
 
@@ -111,7 +109,7 @@ You need to add both `<p>` and `</p>` at least... And example of [Markdown post]
 There is a list of projects on left. And active project options on the right (the active project is highlighted with blue in projects list ). To create your game you need to click "Add New Project" under the list of projects. Further, the engine will ask a few simple questions. Remember the name of the game should be in English (do not use international/unicode symbols).{% endraw %}
 ```
 
-The Markdown code is much better. Just give it a try!
+The Markdown code is much better. Just give it a try.
 
 
 
@@ -457,3 +455,18 @@ So the code to show your [page's comments](https://github.com/DeXP/dexp.github.i
 ### Conclusion
 
 Jekyll is a really cool tool for small sites and blogs. Just try it, you will love it!
+
+![Jekyll logo]({{ site.urlimg }}other/jekyll/logo-2x.png "Jekyll logo"){: .center}
+
+
+
+
+### Useful links
+
+- [GitHub Pages](https://pages.github.com/)
+- [Jekyll Themes](http://jekyllthemes.org/)
+- [Liquid reference](https://help.shopify.com/themes/liquid)
+
+**Other Articles**
+{: .t60 }
+{% include list-posts tag='articles' %}
