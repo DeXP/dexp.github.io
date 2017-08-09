@@ -115,11 +115,11 @@ The Markdown code is much better. Just give it a try.
 
 
 
-### SASS
+### SASS / SCSS
 
-Sass is a language made on top of CSS. It adds a lot of good functionality: variables, code blocks, nested rules, include feature etc. An example of SASS code with mixins and variables:
+Sass is a language made on top of CSS. It adds a lot of good functionality: variables, code blocks, nested rules, include feature etc. An example of SCSS code with mixins and variables:
 
-```sass
+```scss
 @mixin border-radius($radius,$border,$color) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
