@@ -33,6 +33,7 @@ buttons:
       url: "https://github.com/DeXP/dxTarRead"
       class: "success"
 ---
+{% assign i = site.urlimg | append: 'other/jekyll/' %}
 
 **Table of contents:**
 {: #toc }
@@ -46,7 +47,7 @@ buttons:
 
 [Github Pages](https://pages.github.com/) use Jekyll as generator engine. Can GitHub Pages be used without any Jekyll? Yes! You can use GitHub Pages as a simple HTML hosting (it's free) if you have a site generated in some other place.
 
-[![Winter Novel web demo]({{ site.urlimg }}other/jekyll/wn-demo.png "Winter Novel web demo")](https://winternovel.dexp.in)
+[![Winter Novel web demo]({{ i }}wn-demo.png "Winter Novel web demo")](https://winternovel.dexp.in)
 
 
 For example, [Winter Novel web Demo](https://winternovel.dexp.in) was generated in C-application. It's just a bunch of pure HTML pages, hosted on GitHub Pages! You can see the source [here](https://github.com/DeXP/WinterNovel-demo).
@@ -64,7 +65,7 @@ winternovel.dexp.in
 
 You can see the correct domain in your repository settings after commit:
 
-![GitHub Pages options in repository settings]({{ site.urlimg }}other/jekyll/domain-settings.png "GitHub Pages options in repository settings")
+![GitHub Pages options in repository settings]({{i}}domain-settings.png "GitHub Pages options in repository settings")
 
 
 You can use domain names of any levels. For example, [dexp.in](https://dexp.in) is hosted on GitHub too.
@@ -76,7 +77,7 @@ You can use domain names of any levels. For example, [dexp.in](https://dexp.in) 
 
 Another great free service is [CloudFlare](https://www.cloudflare.com). You need a DNS manager for you domains anyway. But CloudFlare not only a DNS manager but a CDN too. It means that CloudFlare can cache your pages and show them even if GitHub Pages will be down.
 
-![dexp.in on CloidFlare]({{ site.urlimg }}other/jekyll/cloudflare-dexp-in.png "dexp.in on CloidFlare")
+![dexp.in on CloidFlare]({{i}}cloudflare-dexp-in.png "dexp.in on CloidFlare")
 
 Main domain directly points to GitHub's IP's. Subdomains were made via cname alias to `dexp.github.io`.
 
@@ -142,9 +143,9 @@ It will be translated into:
 }
 ```
 
-[Sass Basics ›](http://sass-lang.com/guide)
+[Sass Basics ›](http://sass-lang.com/guide){:target="_blank"}
 {: .t30 .button .radius .r15}
-[Sass Tutorial ›](https://www.tutorialspoint.com/sass/)
+[Sass Tutorial ›](https://www.tutorialspoint.com/sass/){:target="_blank"}
 {: .t30 .button .radius .success}
 
 
@@ -217,7 +218,7 @@ The `page.title` was in the page's header. The `site.name` variable is in [_conf
 
 Previous features were not very advanced. But collections help to do really powerful things. For example, galleries. And particular example: [Manga](https://onemangaday.dexp.in/manga.html) page.
 
-![One Manga Day: Manga page]({{ site.urlimg }}other/jekyll/manga.jpg "One Manga Day: Manga page")
+![One Manga Day: Manga page]({{ i }}manga.jpg "One Manga Day: Manga page")
 
 
 A short excerpt from [_data/galleries.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/galleries.yml):
@@ -267,7 +268,7 @@ The output will be like this:
   ];
 ```
 
-[Good Jekyll (Liquid) reference ›](https://help.shopify.com/themes/liquid)
+[Good Jekyll (Liquid) reference ›](https://help.shopify.com/themes/liquid){:target="_blank"}
 {: .t30 .button .radius}
 
 
@@ -352,7 +353,7 @@ So highlighted code in `_code` variable. Then it will be processed by `_include/
 
 The code just check for `<pre class="lineno">` substring. If it exists, then we have buggy HTML output. Just trim, replace it with correct ones.
 
-[ Jekyll (Liquid) string filters ›](https://help.shopify.com/themes/liquid/filters/string-filters)
+[ Jekyll (Liquid) string filters ›](https://help.shopify.com/themes/liquid/filters/string-filters){:target="_blank"}
 {: .t30 .button .radius}
 
 
@@ -385,7 +386,7 @@ layout: compress
 
 The compression will be after all code generation. You will get all your HTML into one line like this:
 
-![Compressed one line HTML]({{ site.urlimg }}other/jekyll/compressed-html.png "Compressed one line HTML")
+![Compressed one line HTML]({{ i }}compressed-html.png "Compressed one line HTML")
 
 
 
@@ -405,9 +406,63 @@ I made [customhighlight.html](https://github.com/DeXP/onemangaday/blob/gh-pages/
 {% endfor %}{% endraw %}
 ```
 
-Just form an array of tags, then search-replace for each one in code string. Simple. The only new thing is splitting the string into the array.
+Just form an array of tags, then search-replace for each one in code string. Simple. The only new thing is splitting the string into the array. An example of highlighted RenPy game code:
 
-Usage example can be found [here](https://raw.githubusercontent.com/DeXP/onemangaday/gh-pages/tutorials/_posts/2015-03-28-simple-game-in-renpy.md).
+{% capture _code %}{% highlight python %}
+define m = Character('Malya', color="#76e2e4")
+image m oho = "Mala-o.png"
+define dex = Character('Dex', color="#999999")
+image dex norm = "Dex-knight.png"
+image bg Green = "bg.jpg"
+
+label start:
+    scene black
+    "It is not known when this story was..." with dissolve
+    "But once ... It still happened!" with dissolve
+    scene bg Green with fade
+    show dex norm at left with dissolve
+    dex "Oh yeah! It looks even better when polished!"
+    show m oho at right with dissolve
+    m "Wow! How did you get so big?"
+    return
+{% endhighlight %}{% endcapture %}
+
+
+{% comment %}-= Actual live RenPy code highlight on this article! =-{% endcomment %}
+
+{% assign _customtag = "image side at hide play show scene" | split: " " %}
+{% assign _customcommand = "define label" | split: " " %}
+{% assign _customparam = "color rotate xalign yalign sound" | split: " " %}
+
+{% for _element in _customtag %}
+  {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="nt">{{ _element }}{% endcapture %}
+  {% assign _code = _code | replace: _from, _to %}
+{% endfor %}
+
+{% for _element in _customcommand %}
+  {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="nf">{{ _element }}{% endcapture %}
+  {% assign _code = _code | replace: _from, _to %}
+{% endfor %}
+
+{% for _element in _customparam %}
+  {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="na">{{ _element }}{% endcapture %}
+  {% assign _code = _code | replace: _from, _to %}
+{% endfor %}
+
+{% comment %}-= Fix linenos for compresshtml. Remove unneeded double "pre" tag. =-{% endcomment %}
+{% if _code contains '<pre class="lineno">' %}
+	{% assign _code = _code | replace: "<pre><code", "<code" %}
+	{% assign _code = _code | replace: "</code></pre>", "</code>" %}
+{% endif %}
+
+<blockquote style="font-style: normal">
+{{ _code }}
+</blockquote>
+
+Usage example can be found [here](https://raw.githubusercontent.com/DeXP/onemangaday/gh-pages/tutorials/_posts/2015-03-28-simple-game-in-renpy.md). Also, highlighter inlined into [this article source code](https://raw.githubusercontent.com/DeXP/dexp.github.io/master/_posts/articles/2017-08-08-advanced-jekyll.md).
 
 
 
@@ -416,7 +471,7 @@ Usage example can be found [here](https://raw.githubusercontent.com/DeXP/onemang
 
 The tag cloud is a more complicated task. First of all, page for each tag must be created. Secondly, there must be an array of valid tags with human-readable names. Thirdly, the script needs to count articles for each tag.
 
-[![Tag cloud]({{ site.urlimg }}other/jekyll/tag-cloud.png "Tag cloud")](http://onemangaday.dexp.in/tutorials/)
+[![Tag cloud]({{ i }}tag-cloud.png "Tag cloud")](http://onemangaday.dexp.in/tutorials/)
 
 
 Main calculations are in[_includes/tagcloud.html](https://github.com/DeXP/onemangaday/blob/gh-pages/_includes/tagcloud.html):
@@ -443,7 +498,7 @@ The `site.tags` variable stores all used tags from all posts. The first subcycle
 The `tag` variable from `site.tags` will be there for each iteration. It contains the list of all posts with this tag. So we can count it, multiply, divide etc. The smallest one was too small for me, so extra 20% was added.
 
 
-[ Jekyll (Liquid) array filters ›](https://help.shopify.com/themes/liquid/filters/array-filters)
+[ Jekyll (Liquid) array filters ›](https://help.shopify.com/themes/liquid/filters/array-filters){:target="_blank"}
 {: .t30 .button .radius}
 
 
@@ -455,7 +510,7 @@ Jekyll does not support internationalization itself. So the programmer completel
 
 Another way is to use a subdomain for another language. But you need to have exactly 2 sites in this case. And 10 if you have 10 languages.
 
-![One Manga Day in Polish]({{ site.urlimg }}other/jekyll/omd-polish.png "One Manga Day in Polish"){: .center}
+![One Manga Day in Polish]({{ i }}omd-polish.png "One Manga Day in Polish"){: .center}
 
 [One Manga Day](https://onemangaday.dexp.in) has separate folders for each language. The idea is pretty simple. For example, there is an English page `cat/page.html`. If this page has Russian variant, it will have URL `ru/cat/page.html`. You can just create all pages by hands when you have a small amount. But if there are a lot of pages, then you need to check page existence somehow. But there are no file functions in Jekyll for GitHub servers security purposes. 
 
@@ -489,7 +544,7 @@ Now you need to add only some info to your URL if an appropriate file exists.
 
 The first and easiest solution - [Disqus](https://disqus.com/) or another AJAX-based JavaScript commentary system. You just inline some small JS-code into your page and all works fine.
 
-[![One Manga Day Disqus comments]({{ site.urlimg }}other/jekyll/omd-disqus.png "One Manga Day Disqus comments")](https://onemangaday.dexp.in/feedback.html)
+[![One Manga Day Disqus comments]({{ i }}omd-disqus.png "One Manga Day Disqus comments")](https://onemangaday.dexp.in/feedback.html)
 
 
 But I like [Staticman](https://staticman.net) - comments system, based on Pull Requests to your site repo. So comments are in Jekyll collection too! 
@@ -523,7 +578,7 @@ So the code to show your [page's comments](https://github.com/DeXP/dexp.github.i
 
 Jekyll is a really cool tool for small sites and blogs. Just try it, you will love it!
 
-![Jekyll logo]({{ site.urlimg }}other/jekyll/logo-2x.png "Jekyll logo"){: .center}
+![Jekyll logo]({{ i }}logo-2x.png "Jekyll logo"){: .center}
 
 
 
