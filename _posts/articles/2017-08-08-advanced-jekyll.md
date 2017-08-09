@@ -79,7 +79,7 @@ Another great free service is [CloudFlare](https://www.cloudflare.com). You need
 
 ![dexp.in on CloidFlare]({{i}}cloudflare-dexp-in.png "dexp.in on CloidFlare")
 
-Main domain directly points to GitHub's IP's. Subdomains were made via cname alias to `dexp.github.io`.
+Main domain directly points to GitHub's IP's. Subdomains were made via cname alias to *dexp.github.io*.
 
 
 
@@ -153,7 +153,7 @@ It will be translated into:
 
 ### Layouts
 
-Ok, pure HTML is good. But have Jekyll something like `include` directive? I want to make my pages something like that:
+Ok, pure HTML is good. But have Jekyll something like *include* directive? I want to make my pages something like that:
 
 ```yml
 include header.html
@@ -161,7 +161,7 @@ include header.html
 include footer.html
 ```
 
-Yes, Jekyll have `include`. But it is better to use it in other places. A better solution for site appearance is a layout mechanism.
+Yes, Jekyll have *include*. But it is better to use it in other places. A better solution for site appearance is a layout mechanism.
 
 Let's see some example. The page's source code will look like this:
 
@@ -172,7 +172,7 @@ layout: default
 { my strings }
 ```
 
-And `_layouts/default.html`:
+And *_layouts/default.html*:
 
 ```html
 {% raw %}<html>...
@@ -180,16 +180,16 @@ And `_layouts/default.html`:
 ...</html>{% endraw %}
 ```
 
-So the page generates some code and stores it to the `content` variable. Jekyll can see that next file will be `_layouts/default.html` and parse it. The programmer can output `content` variable at any place of the code. 
+So the page generates some code and stores it to the *content* variable. Jekyll can see that next file will be *_layouts/default.html* and parse it. The programmer can output *content* variable at any place of the code. 
 
-The code is more complicated in real cases. For example, `One Manga Day's` [index page](https://github.com/DeXP/onemangaday/blob/gh-pages/index.html) and [default layout](https://github.com/DeXP/onemangaday/blob/gh-pages/_layouts/default.html) for it.
+The code is more complicated in real cases. For example, *One Manga Day's* [index page](https://github.com/DeXP/onemangaday/blob/gh-pages/index.html) and [default layout](https://github.com/DeXP/onemangaday/blob/gh-pages/_layouts/default.html) for it.
 
 
 
 
 ### Variables
 
-We've touched the variables theme. So let's see the header from `One Manga Day's` [index page](https://github.com/DeXP/onemangaday/blob/gh-pages/index.html): 
+We've touched the variables theme. So let's see the header from *One Manga Day's* [index page](https://github.com/DeXP/onemangaday/blob/gh-pages/index.html): 
 
 ```yml
 ---
@@ -200,7 +200,7 @@ addcss: badges
 ---
 ```
 
-The `layout` variable gives the Jekyll info about next file to parse. All other variables used in code by programmer like in [layout](https://github.com/DeXP/onemangaday/blob/gh-pages/_layouts/default.html): 
+The *layout* variable gives the Jekyll info about next file to parse. All other variables used in code by programmer like in [layout](https://github.com/DeXP/onemangaday/blob/gh-pages/_layouts/default.html): 
 
 ```html
 {% raw %}<!DOCTYPE html>
@@ -209,7 +209,7 @@ The `layout` variable gives the Jekyll info about next file to parse. All other 
 		<title>{{ site.name }} | {{ page.title }}</title> {% endraw %}
 ```
 
-The `page.title` was in the page's header. The `site.name` variable is in [_config.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_config.yml). The result of this line's parsing is: `One Manga Day | Home page`
+The *page.title* was in the page's header. The *site.name* variable is in [_config.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_config.yml). The result of this line's parsing is: `One Manga Day | Home page`
 
 
 
@@ -236,7 +236,7 @@ A short excerpt from [_data/galleries.yml](https://github.com/DeXP/onemangaday/b
     text: Instructor
 ```
 
-In this code `site.data.galleries` collection was created. First `-` means that we created collection item. The `images` is a subcollection, each element of which has `name`, `thumb` and `text` fields.
+In this code *site.data.galleries* collection was created. First `-` means that we created collection item. The *images* is a subcollection, each element of which has *name*, *thumb* and *text* fields.
 
 And example how to work with this collection, [_includes/mangascript.html](https://github.com/DeXP/onemangaday/blob/gh-pages/_includes/mangascript.html):
 
@@ -278,7 +278,7 @@ The output will be like this:
 
 Another good approach for galleries is to store their collections in page directly. For example, One Manga Day page [source](https://raw.githubusercontent.com/DeXP/dexp.github.io/master/_posts/games/2014-06-30-onemangaday.md):
 
-```yml
+```liquid
 ---
 layout: page
 title:  "One Manga Day"
@@ -303,7 +303,7 @@ Manga are... {% raw %}
 {% endraw %}
 ```
 
-There are two collections, inlined to that page: `gallery` and `buttons`. The `page.gallery` and `page.buttons` are variables for using in [_includes/gallery](https://github.com/DeXP/dexp.github.io/blob/master/_includes/gallery) or [_includes/buttons](https://github.com/DeXP/dexp.github.io/blob/master/_includes/buttons).
+There are two collections, inlined to that page: *gallery* and *buttons*. The *page.gallery* and *page.buttons* are variables for using in [_includes/gallery](https://github.com/DeXP/dexp.github.io/blob/master/_includes/gallery) or [_includes/buttons](https://github.com/DeXP/dexp.github.io/blob/master/_includes/buttons).
 
 {% include gallery %}
 
@@ -325,7 +325,7 @@ Usual assignment:
 
 It is not working in this case since I want not raw-strings but preprocessed by Jekyll.
 
-The solution is `capture` directive. Let's see an example of compress.html [bug avoid hack](https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901). Initially, you have the code like:
+The solution is *capture* directive. Let's see an example of compress.html [bug avoid hack](https://github.com/penibelst/jekyll-compress-html/issues/71#issuecomment-188144901). Initially, you have the code like:
 
 ```liquid
 {% raw %}{% highlight AnyLanguage linenos %}
@@ -333,7 +333,7 @@ Some code
 {% endhighlight %}{% endraw %}
 ```
 
-Change it to using `capture`:
+Change it to using *capture*:
 
 ```liquid
 {% raw %}{% capture _code %}{% highlight AnyLanguage linenos %}
@@ -342,7 +342,7 @@ Some code
 {{ _code }}{% endraw %}
 ```
 
-So highlighted code in `_code` variable. Then it will be processed by `_include/fixlinenos.html`:
+So highlighted code in *_code* variable. Then it will be processed by *_include/fixlinenos.html*:
 
 ```liquid
 {% raw %}{% if _code contains '<pre class="lineno">' %}
@@ -368,7 +368,7 @@ sass:
     style: :compressed
 ```
 
-If you make your SASS code on the fly and store it to string, then the `scssify` filter is for you:
+If you make your SASS code on the fly and store it to string, then the *scssify* filter is for you:
 
 ```liquid
 {% raw %}{{ some_scss | scssify }}{% endraw %}
@@ -394,7 +394,7 @@ The compression will be after all code generation. You will get all your HTML in
 
 I need to highlight some rare programming language, that is not in Jekyll opportunities. Ok, just do it programmatically. 
 
-I made [customhighlight.html](https://github.com/DeXP/onemangaday/blob/gh-pages/_includes/customhighlight.html) for highlighting RenPy code (based on Python language). The main idea is pretty simple and based on `replace` filter too:
+I made [customhighlight.html](https://github.com/DeXP/onemangaday/blob/gh-pages/_includes/customhighlight.html) for highlighting RenPy code (based on Python language). The main idea is pretty simple and based on *replace* filter too:
 
 ```liquid
 {% raw %}{% assign _customtag = "image side hide play show scene" | split: " " %}
@@ -448,7 +448,7 @@ label start:
 
 {% for _element in _customparam %}
   {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
-  {% capture _to %}<span class="na">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="k">{{ _element }}{% endcapture %}
   {% assign _code = _code | replace: _from, _to %}
 {% endfor %}
 
@@ -493,9 +493,9 @@ Main calculations are in[_includes/tagcloud.html](https://github.com/DeXP/oneman
 </ul>{% endraw %}
 ```
 
-The `site.tags` variable stores all used tags from all posts. The first subcycle is for search this current tag in human readable tags, defined in [_data/lang.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/lang.yml).
+The *site.tags* variable stores all used tags from all posts. The first subcycle is for search this current tag in human readable tags, defined in [_data/lang.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/lang.yml).
 
-The `tag` variable from `site.tags` will be there for each iteration. It contains the list of all posts with this tag. So we can count it, multiply, divide etc. The smallest one was too small for me, so extra 20% was added.
+The *tag* variable from *site.tags* will be there for each iteration. It contains the list of all posts with this tag. So we can count it, multiply, divide etc. The smallest one was too small for me, so extra 20% was added.
 
 
 [ Jekyll (Liquid) array filters ›](https://help.shopify.com/themes/liquid/filters/array-filters){:target="_blank"}
