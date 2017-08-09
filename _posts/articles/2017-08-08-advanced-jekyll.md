@@ -114,6 +114,42 @@ The Markdown code is much better. Just give it a try.
 
 
 
+
+### SASS
+
+Sass is a language made on top of CSS. It adds a lot of good functionality: variables, code blocks, nested rules, include feature etc. An example of SASS code with mixins and variables:
+
+```sass
+@mixin border-radius($radius,$border,$color) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+    border:$border solid $color
+}
+.box { @include border-radius(10px,1px,red); }
+```
+
+It will be translated into:
+
+```css
+.box {
+   -webkit-border-radius: 10px; 
+      -moz-border-radius: 10px; 
+       -ms-border-radius: 10px; 
+           border-radius: 10px; 
+   border: 1px solid red; 
+}
+```
+
+[Sass Basics ›](http://sass-lang.com/guide)
+{: .t30 .button .radius .r15}
+[Sass Tutorial ›](https://www.tutorialspoint.com/sass/)
+{: .t30 .button .radius .success}
+
+
+
+
 ### Layouts
 
 Ok, pure HTML is good. But have Jekyll something like `include` directive? I want to make my pages something like that:
@@ -322,9 +358,40 @@ The code just check for `<pre class="lineno">` substring. If it exists, then we 
 
 
 
+### Code compression
+
+You can compress all your SASS with one line in [_config.yml](https://github.com/DeXP/dexp.github.io/blob/master/_config.yml):
+
+```yml
+sass:
+    style: :compressed
+```
+
+If you make your SASS code on the fly and store it to string, then the `scssify` filter is for you:
+
+```liquid
+{% raw %}{{ some_scss | scssify }}{% endraw %}
+```
+
+The style from config will be applied.
+
+There is no standard way to compress output HTML. But you can use [compress.html](https://github.com/penibelst/jekyll-compress-html). Just add one line to your [top-level layout](https://github.com/DeXP/onemangaday/blob/gh-pages/_layouts/default.html):
+
+```yml
+---
+layout: compress
+---
+```
+
+The compression will be after all code generation. You will get all your HTML into one line like this:
+
+![Compressed one line HTML]({{ site.urlimg }}other/jekyll/compressed-html.png "Compressed one line HTML")
+
+
+
 ### Custom highlight
 
-I need to highlight some rare programming language, that is not in Jekyll opportunities. Ok, I will do it programmatically. 
+I need to highlight some rare programming language, that is not in Jekyll opportunities. Ok, just do it programmatically. 
 
 I made [customhighlight.html](https://github.com/DeXP/onemangaday/blob/gh-pages/_includes/customhighlight.html) for highlighting RenPy code (based on Python language). The main idea is pretty simple and based on `replace` filter too:
 
@@ -373,7 +440,7 @@ Main calculations are in[_includes/tagcloud.html](https://github.com/DeXP/oneman
 
 The `site.tags` variable stores all used tags from all posts. The first subcycle is for search this current tag in human readable tags, defined in [_data/lang.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/lang.yml).
 
-The `tag` variable from `site.tags` will be there for each iteration. It contains the list of all posts with this tag. So we can count it, multiply, divide etc. The smallest one was too small for me, so I added extra 20%.
+The `tag` variable from `site.tags` will be there for each iteration. It contains the list of all posts with this tag. So we can count it, multiply, divide etc. The smallest one was too small for me, so extra 20% was added.
 
 
 [ Jekyll (Liquid) array filters ›](https://help.shopify.com/themes/liquid/filters/array-filters)
