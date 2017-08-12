@@ -36,6 +36,11 @@ gallery:
     - image_url: photo/grl2006/PICT0063.JPG
     - image_url: photo/grl2006/PICT0102.JPG
     - image_url: photo/grl2006/PICT0103.JPG
+    - image_url: photo/grl2006/Scan-170812-0001.jpg
+    - image_url: photo/grl2006/Scan-170812-0002.jpg
+    - image_url: photo/grl2006/Scan-170812-0003.jpg
+    - image_url: photo/grl2006/Scan-170812-0004.jpg
+    - image_url: photo/grl2006/Scan-170812-0005.jpg
 comments: false
 mediaplayer: true
 ---

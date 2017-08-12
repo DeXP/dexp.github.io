@@ -1,7 +1,7 @@
 #!/bin/bash
 langs='ru en'
 diz='blp npi gray'
-pref='/photo/JeepTrial2008/'
+pref='/photo/other/'
 urls="index near_winter doma vypusknik delovie_ludi zaika_s_koshkoi"
 
 echo "redirect_from:"
