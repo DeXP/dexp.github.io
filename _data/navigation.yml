@@ -21,6 +21,10 @@
   url: "/articles/"
   side: left
 
+- title: Photo
+  url: "/photo/"
+  side: left
+
 - title: Russian
   url: "/russian/"
   side: left
