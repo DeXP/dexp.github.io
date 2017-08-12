@@ -49,7 +49,12 @@ mediaplayer: true
 
 ### Video 
 
+Presentation of the certificates:
+
 <video src="{{ site.urlimg }}photo/grl2006/PICT0032.mp4" type="video/mp4" controls="controls" preload="none" width="320" height="240"></video>
+
+
+Come back:
 
 <video src="{{ site.urlimg }}photo/grl2006/PICT0044.mp4" type="video/mp4" controls="controls" preload="none" width="320" height="240"></video>
 
