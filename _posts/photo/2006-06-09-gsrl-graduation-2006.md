@@ -2,7 +2,7 @@
 layout: page
 subheadline: "Life"
 title:  "Graduation party of Gomel State Regional Lyceum 2006"
-teaser: "My graduation from <a href='http://gsrl.by'>GSRL</a>."
+teaser: "Graduation from <a href='http://gsrl.by'>GSRL</a>."
 categories:
     - photo
 tags:
@@ -47,6 +47,7 @@ mediaplayer: true
 
 {% include gallery %}
 
+
 ### Video 
 
 Presentation of the certificates:
@@ -57,6 +58,13 @@ Presentation of the certificates:
 Come back:
 
 <video src="{{ site.urlimg }}photo/grl2006/PICT0044.mp4" type="video/mp4" controls="controls" preload="none" width="320" height="240"></video>
+
+
+
+#### DVD Disk 1:
+
+<iframe width="627" height="470" src="https://www.youtube.com/embed/2OdHHNpMuZw" frameborder="0" allowfullscreen></iframe>
+
 
 
 

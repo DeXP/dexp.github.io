@@ -32,6 +32,7 @@ buttons:
     - caption: "dxTarRead on GitHub"
       url: "https://github.com/DeXP/dxTarRead"
       class: "success"
+galleryid: screenshotsPL
 ---
 {% assign i = site.urlimg | append: 'other/jekyll/' %}
 
@@ -242,35 +243,35 @@ And example how to work with this collection, [_includes/mangascript.html](https
 
 ```liquid
 {% raw %}<script type="text/javascript">
-  var imageGallery = [
-  {% for gallery in site.data.galleries %}
-    {% if gallery.id == page.galleryid %}
-      {% for image in gallery.images %}
-        "{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}",
-      {% endfor %}
-    {% endif %}
-  {% endfor %}
-  ];
+var imageGallery = [
+{% assign gallery = site.data.galleries | where:"id",page.gId | first %}
+{% for image in gallery.images %}
+  "{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}",
+{% endfor %}
+];
 ...
 </script>{% endraw %}
 ```
 
-The top most `for` is for see all galleries in site and choose the particular one. Another `for` is for images in this collection.
+First of all, *site.data.galleries* collection assigned to *gallery* variable. In this line the *where* filter was used - take only that collection items, which subfield *id* is equal to *page.gId*.  It is understood that the ID must be unique, so we need only one, *first* element from *where*'s result.
+
+Then just pass by this gallery with `for` cycle.  
 
 The output will be like this:
 
 ```javascript
-  var imageGallery = [
-        "pic/manga/OneMangaDay_000_001.png",
-        "pic/manga/OneMangaDay_000_002.png", 
-        ...
-        "pic/manga/OneMangaDay_999.png"
-  ];
+var imageGallery = [
+  "pic/manga/OneMangaDay_000_001.png",
+  "pic/manga/OneMangaDay_000_002.png", 
+  ...
+  "pic/manga/OneMangaDay_999.png"
+];
 ```
 
 [Good Jekyll (Liquid) reference ›](https://help.shopify.com/themes/liquid){:target="_blank"}
-{: .t30 .button .radius}
-
+{: .t30 .button .radius .r15}
+["Advanced Liquid: Where" ›](https://www.siteleaf.com/blog/advanced-liquid-where/){:target="_blank"}
+{: .t30 .button .radius .success} 
 
 
 
@@ -481,17 +482,14 @@ Main calculations are in[_includes/tagcloud.html](https://github.com/DeXP/oneman
   <li style="font-size: 150%"><a href="index.html">All</a></li>
 {% for tag in site.tags %}
   {% assign curTag = tag | first | slugize %}
-  {% for data_tag in landat.tags %}
-    {% if data_tag.slug == curTag %}
-      {% assign langtag = data_tag %}
-    {% endif %}
-  {% endfor %}
+  {% assign langtag = landat.tags | where:"slug",curTag | first %} 
   <li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 20 }}%">
     <a href="{{ curTag }}.html">{{ langtag.name }}</a>
   </li>
 {% endfor %}
 </ul>{% endraw %}
 ```
+
 
 The *site.tags* variable stores all used tags from all posts. The first subcycle is for search this current tag in human readable tags, defined in [_data/lang.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/lang.yml).
 
