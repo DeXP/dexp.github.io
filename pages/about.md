@@ -16,6 +16,8 @@ buttons:
     - caption: "Web CV"
       url: "{{ site.url }}/download/Hrabrov_CV_web.pdf"
       class: warning
+    - caption: "Source"
+      url: https://github.com/DeXP/CV
 ---
 
 My name is Dmitry Hrabrov. I'm a programmer since 2004.
