@@ -255,7 +255,7 @@ var imageGallery = [
 
 First of all, *site.data.galleries* collection assigned to *gallery* variable. In this line the *where* filter was used - take only that collection items, which subfield *id* is equal to *page.gId*.  It is understood that the ID must be unique, so we need only one, *first* element from *where*'s result.
 
-Then just pass by this gallery with `for` cycle.  
+Then just pass by this gallery with `for` loop.  
 
 The output will be like this:
 
@@ -311,6 +311,46 @@ There are two collections, inlined to that page: *gallery* and *buttons*. The *p
 This method is useful for inlining info for this page only. But if you want cross site collections (to show contact/menus/etc on every page) than previous method is for you.
 
 
+
+
+
+### Filters pipes
+
+We’ve touched the filters theme already. Now is a time for a more complicated task. I want to see all my "Linux" posts, grouped by year, limited with 3 years only.
+
+```liquid
+{% raw %}{% assign cp = site.tags.linux | sort | reverse %}
+{% assign byYear = cp | group_by_exp:"post", "post.date | date: '%Y'" %}
+
+{% for yearItem in byYear limit:3 %}
+  <h4>{{ yearItem.name }}</h4>
+  <ul>
+    {% for post in yearItem.items %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}{% endraw %}
+```
+
+Firstly, get all "Linux" posts by tag: *site.tags.linux*. Next line groups posts by date. You can choose any field or date format for grouping. The final thing is a *limit* in the `for` loop. Output:
+
+<blockquote>
+{% assign curPosts = site.tags.linux | sort | reverse %}
+{% assign byYear = curPosts | group_by_exp:"post", "post.date | date: '%Y'"%}
+
+{% for yearItem in byYear limit:3 %}
+  <h4>{{ yearItem.name }}</h4>
+  <ul>
+    {% for post in yearItem.items %}
+	  {% if post.categories[0] != 'russian' %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+{% endfor %}
+</blockquote>
+
+You can see the demo on [Photo page]({{ site.url }}/photo/) ([source](https://raw.githubusercontent.com/DeXP/dexp.github.io/master/pages/photo.md)).
 
 
 
@@ -491,7 +531,7 @@ Main calculations are in[_includes/tagcloud.html](https://github.com/DeXP/oneman
 ```
 
 
-The *site.tags* variable stores all used tags from all posts. The first subcycle is for search this current tag in human readable tags, defined in [_data/lang.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/lang.yml).
+The *site.tags* variable stores all used tags from all posts. The *langtag* is current tag in human readable tags, defined in [_data/lang.yml](https://github.com/DeXP/onemangaday/blob/gh-pages/_data/lang.yml).
 
 The *tag* variable from *site.tags* will be there for each iteration. It contains the list of all posts with this tag. So we can count it, multiply, divide etc. The smallest one was too small for me, so extra 20% was added.
 

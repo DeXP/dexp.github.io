@@ -209,6 +209,9 @@ comments:
   gravatarsize: 100
 staticmanUrl: "https://api.staticman.net/v2/entry/DeXP/dexp.github.io/master/comments"
 
+# "Other Articles" on page bottom
+listEntriesCount: 5
+
 
 #        ____  _
 #       / __ \(_)________ ___  _______

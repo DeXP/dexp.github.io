@@ -21,6 +21,11 @@
 {% endcomment %}
 
 
+{% assign lim = site.listEntriesCount %}
+{% if include.entries %}
+  {% assign lim = include.entries %}
+{% endif %}
+
 
 {% assign category = include.category %}
 {% assign tag = include.tag %}
@@ -28,7 +33,7 @@
 
   {% if category == NULL and tag == NULL %}
 
-    {% for post in site.posts limit:include.entries offset:include.offset %}
+    {% for post in site.posts limit:lim offset:include.offset %}
       <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
     {% endfor %}
       <li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
@@ -36,7 +41,7 @@
 
   {% elsif category %}
 
-    {% for post in site.categories.[category] limit:include.entries offset:include.offset %}
+    {% for post in site.categories.[category] limit:lim offset:include.offset %}
       <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
     {% endfor %}
       <li class="text-right"><a href="{{ site.url }}{{ site.baseurl }}/blog/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
@@ -44,7 +49,7 @@
 
   {% elsif tag %}
 
-    {% for post in site.tags.[tag] limit:include.entries %}
+    {% for post in site.tags.[tag] limit:lim %}
       <li><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
     {% endfor %}
 
