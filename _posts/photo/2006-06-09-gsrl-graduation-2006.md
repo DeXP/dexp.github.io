@@ -41,7 +41,7 @@ gallery:
     - image_url: photo/grl2006/Scan-170812-0003.jpg
     - image_url: photo/grl2006/Scan-170812-0004.jpg
     - image_url: photo/grl2006/Scan-170812-0005.jpg
-comments: false
+comments: true
 mediaplayer: true
 ---
 

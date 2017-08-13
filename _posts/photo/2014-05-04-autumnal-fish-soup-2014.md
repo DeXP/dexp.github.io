@@ -44,8 +44,7 @@ gallery:
     - image_url: photo/uha2014/DSCF4234.JPG
     - image_url: photo/uha2014/DSCF4237.JPG
     - image_url: photo/uha2014/DSCF5201.JPG
-comments: false
-mediaplayer: true
+comments: true
 ---
 
 {% include gallery %}
