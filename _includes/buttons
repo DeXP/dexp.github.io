@@ -3,11 +3,16 @@
 *   This include lets you easily embed a buttons queue into your post.
 *
 {% endcomment %}
+{% if include.buttons %}
+	{% assign buttons = include.buttons %}
+{% else %}
+	{% assign buttons = page.buttons %}
+{% endif %} 
 <container>
 	<row>
-		{% for item in page.buttons %}
+		{% for item in buttons %}
 		<columns small="12" large="6">
-			<a href="{{ item.url }}" class="t30 button radius {{ item.class }}">{{ item.caption }} ›</a>
+			<a href="{{ item.url }}" class="t30 button radius {{ item.class }}"{% if item.target %} target="{{ item.target }}"{% endif %}>{{ item.caption }} ›</a>
 		</columns>
 		{% endfor %}
   </row>

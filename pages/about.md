@@ -18,6 +18,7 @@ buttons:
       class: warning
     - caption: "Source"
       url: https://github.com/DeXP/CV
+      target: "_blank"
 ---
 
 My name is Dmitry Hrabrov. I'm a programmer since 2004.
