@@ -27,11 +27,13 @@ gallery:
     - image_url: omd/OMD-s0008.jpg
 buttons:
     - caption: "This article in Russian"
-      url: "https://habrahabr.ru/post/320834/"
+      url: "https://habrahabr.ru/post/336266/"
       class: ""
-    - caption: "dxTarRead on GitHub"
-      url: "https://github.com/DeXP/dxTarRead"
+      target: "_blank"
+    - caption: "Import This cast website"
+      url: "http://it-cast.nesterione.com/"
       class: "success"
+      target: "_blank"
 galleryid: screenshotsPL
 ---
 {% assign i = site.urlimg | append: 'other/jekyll/' %}
@@ -627,9 +629,9 @@ Jekyll is a really cool tool for small sites and blogs. Just try it, you will lo
 - [Jekyll Themes](http://jekyllthemes.org/)
 - [Liquid reference](https://help.shopify.com/themes/liquid)
 
-
 <iframe src="https://www.youtube.com/embed/Kw5K0czvSm0?ecver=2" width="640" height="360" frameborder="0" allowfullscreen></iframe>
  
+{% include buttons %}
 
 
 
