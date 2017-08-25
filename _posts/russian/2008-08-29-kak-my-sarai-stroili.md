@@ -9,8 +9,11 @@ tags:
     - offtopic
     - prose
     - life
-#image:
-#   thumb: "thumb/w2bf.png"
+image:
+   thumb: "thumb/sarai.jpg"
+   title: "other/sarai.jpg"
+header: no
+#    image_fullwidth: "other/sarai.jpg"
 redirect_from:
   - "/blog/kak_my_sarai_stroili+blp+en.html"
   - "/blog/kak_my_sarai_stroili+blp+ru.html"
