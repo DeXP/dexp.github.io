@@ -1,0 +1,24 @@
+{% assign ipath = "" %}
+{% if include.imgs_path %}
+	{% assign ipath = include.imgs_path %} 
+{% else %}
+	{% if page.imgs_path %}
+		{% assign ipath = page.imgs_path %} 
+	{% endif %}
+{% endif %}
+
+<p>
+{% if include.caption %}
+    <figure>
+        <img src="{{ site.urlimg }}{{ ipath }}{{ include.path }}" {% if include.alt %} alt="{{ include.alt }}" title="{{ include.alt | remove: '"' }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+        <figcaption>{{ include.caption }}</figcaption>
+    </figure>
+{% else %}
+
+{% if include.link %}<a href="{{ site.urlimg }}{{ ipath }}{{ include.path }}" target="_blank">{% endif %}
+<img src="{{ site.urlimg }}{{ ipath }}{{ include.path }}" {% if include.alt %} alt="{{ include.alt }}" title="{{ include.alt | remove: '"' }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}{% if include.height %} height="{{ include.height }}" {% endif %}/>
+{% if include.link %}</a>{% endif %}
+
+
+{% endif %}
+</p>
