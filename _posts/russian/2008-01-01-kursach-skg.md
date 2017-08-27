@@ -9,8 +9,8 @@ tags:
     - latex
     - autocad
     - lisp
-#image:
-#   thumb: "thumb/w2bf.png"
+image:
+   thumb: "thumb/kursach-skg.png"
 redirect_from:
   - "/sources/kursach-skg+blp+en.html"
   - "/sources/kursach-skg+blp+ru.html"
@@ -20,13 +20,13 @@ redirect_from:
   - "/sources/kursach-skg+gray+ru.html"
 buttons:
     - caption: "Отчёт"
-      url: "{{ site.url }}/download/kursach-skg-otchet.pdf"
+      url: "/download/kursach-skg-otchet.pdf"
       class: "warning"
     - caption: "Исходники"
-      url: "{{ site.url }}/download/kursach-skg-sources.tar.bz2"
+      url: "/download/kursach-skg-sources.tar.bz2"
       class: "info"
     - caption: "Презентация"
-      url: "{{ site.url }}/download/kursach-skg-presentation.pdf"
+      url: "/download/kursach-skg-presentation.pdf"
       class: "success"
 comments: true
 ---

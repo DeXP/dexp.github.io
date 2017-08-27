@@ -20,10 +20,10 @@ redirect_from:
   - "/sources/MaxPotok+gray+ru.html"
 buttons:
     - caption: "Download C++ version"
-      url: "{{ site.url }}/download/POTOK.CPP"
+      url: "/download/POTOK.CPP"
       class: "info"
     - caption: "Download Delphi version"
-      url: "{{ site.url }}/download/POTOK.DPR"
+      url: "/download/POTOK.DPR"
       class: success
 comments: true
 ---

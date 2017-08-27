@@ -16,7 +16,7 @@ buttons:
       url: "https://github.com/DeXP/dxTarRead"
       class: "info"
     - caption: "Article about TAR reading"
-      url: "{{ site.url }}/articles/read-tar-in-26-lines/"
+      url: "/articles/read-tar-in-26-lines/"
       class: success
 comments: true
 ---
