@@ -10,7 +10,9 @@
 <p>
 {% if include.caption %}
     <figure>
+{% if include.link %}<a href="{{ site.urlimg }}{{ ipath }}{{ include.path }}" target="_blank">{% endif %}
         <img src="{{ site.urlimg }}{{ ipath }}{{ include.path }}" {% if include.alt %} alt="{{ include.alt }}" title="{{ include.alt | remove: '"' }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+{% if include.link %}</a>{% endif %}
         <figcaption>{{ include.caption }}</figcaption>
     </figure>
 {% else %}

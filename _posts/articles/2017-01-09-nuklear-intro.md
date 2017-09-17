@@ -288,10 +288,8 @@ Linux:
 
 ### How to use this know-how
 
-- Clone repository [https://github.com/DeXP/dxBin2h](https://github.com/DeXP/dxBin2h)
-- Copy the "GUI" folder to your project
-- Include "GUI/nuklear_cross.h", use functions from there
-- If you need to update Nuklear files, copy them from the official repository on top of the current ones.
+- Clone repository [https://github.com/DeXP/nuklear_cross](https://github.com/DeXP/nuklear_cross) into your project
+- Include "nuklear_cross/nuklear_cross.h", use functions from there
 
 
 ### Conclusion
