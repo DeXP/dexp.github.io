@@ -36,6 +36,7 @@ gallery:
     - image_url: photo/karate2017/vk-uaI7TRBCpk.jpg
     - image_url: photo/karate2017/vk-uEVDTAHTFWU.jpg
     - image_url: photo/karate2017/vk-zTIaGNrVQw14.jpg
+    - image_url: photo/karate2017/IMG_20170918_214136-ANIMATION.gif
 comments: true
 ---
 
