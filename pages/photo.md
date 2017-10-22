@@ -36,7 +36,7 @@ header:
 <div class="column">
 		{% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | escape }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title | escape }}"></a>{% endif %}
 
-        <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+        <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
 
 		{% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
 
