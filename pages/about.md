@@ -7,15 +7,18 @@ permalink: "/about/"
 header:
   image_fullwidth: "Dexp_Rechica.jpg"
 buttons:
-    - caption: "Gamedev CV"
-      url: "{{ site.url }}/download/Hrabrov_CV_gamedev.pdf"
+    - caption: "Gamedev"
+      url: "/download/Hrabrov_CV_gamedev.pdf"
       class: "info"
-    - caption: "Tools CV"
-      url: "{{ site.url }}/download/Hrabrov_CV_tools.pdf"
+    - caption: "Tools"
+      url: "/download/Hrabrov_CV_tools.pdf"
       class: success
-    - caption: "Web CV"
-      url: "{{ site.url }}/download/Hrabrov_CV_web.pdf"
+    - caption: "Linux"
+      url: "/download/Hrabrov_CV_linux.pdf"
       class: warning
+    - caption: "Web"
+      url: "/download/Hrabrov_CV_web.pdf"
+      class: success
     - caption: "Source"
       url: https://github.com/DeXP/CV
       target: "_blank"
