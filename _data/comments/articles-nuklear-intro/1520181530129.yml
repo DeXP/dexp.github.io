@@ -1,0 +1,8 @@
+_id: 8438cd10-1fca-11e8-8e5c-bbd9119aac8b
+_parent: articles-nuklear-intro
+name: TonyD
+email: 115e7ceb5443391e6e84346a18e54ecb
+url: ''
+address: ''
+message: "It took me a while to realize what nuklear is.\r\n\r\nMost graphics libraries try to provide a portable interface for the application developer - so your sdl or gl code can be highly portable.  But nuklear doesn't do that. Instead, nuklear tries to make the library itself easy to port to different display devices - at the cost to having zero portability for the application developer. So nuklear is really something optimized for developers to use with custom output devices - since you can customize it for your output device.  It is also quite small - and that is a major benefit for those doing embedded work.\r\n\r\nFor the typical programmer with access to a graphics library, it is hard to see any benefit to using nuklear. (I'm investigating using it for a resource constrained application - where size matters a lot.)"
+date: 1520181530
