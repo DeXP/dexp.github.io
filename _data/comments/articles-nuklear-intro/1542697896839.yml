@@ -1,0 +1,8 @@
+_id: 84ae8e60-ec93-11e8-9830-d39e3949aff2
+_parent: articles-nuklear-intro
+name: RDRush
+email: 39c72569abace3705cfaab61cf594d0b
+url: ''
+address: ''
+message: "Agree that Nuklear is optimal for small form factors requiring or simply benefiting from a GUI, but the library being small and providing most all common controls in a single package make GUI development  very simplified. This level of simplification at a cost of a single header file is cost effective and easily maintainable; as was stated in the article, the majority of time may now be directed at developing the graphic interface rather than the setup and implementation associated with some and being capable of integration with SDL2 and OpenGL with almost no effort is definitely a bonus considering cross-platform, including mobile, development. It, Nuklear, is certainly versatile and could be used in applications as well as games allowing a stronger focus on brand and availability.\r\n\r\nExcellent introduction and demonstration concerning Nuklear!"
+date: 1542697896
