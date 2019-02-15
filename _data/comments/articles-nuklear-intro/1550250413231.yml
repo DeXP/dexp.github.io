@@ -1,0 +1,8 @@
+_id: 17257a20-3144-11e9-9886-cb4396af2ad7
+_parent: articles-nuklear-intro
+name: rt2
+email: a7ced3a61ce474cd66b8675b2b1a8d80
+url: ''
+address: ''
+message: "How draw directly on window?\r\ncan You add simple example to draw polygon with hole or other primitives (line, rectangle etc.)\r\nbig window inside main windo is not good idea. any click outside and losting every windows"
+date: 1550250413
