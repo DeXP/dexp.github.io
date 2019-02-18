@@ -1,0 +1,12 @@
+_id: 31ad8e40-33ac-11e9-8419-e1fa5a9087aa
+_parent: articles-nuklear-intro
+name: DeXPeriX
+email: a713c94ab63e4e5184f87dcd7f0f2471
+url: 'https://dexp.in'
+address: ''
+message: >-
+  rt2, you can use drawing backend (OpenGL for example) to draw something on the
+  scene. The article is not about that, but about Nuklear. I do not feel myself
+  advanced enough to write an OpenGL tutorial. But you can google ones. Your
+  OpenGL code will be somewhere nearby clearing the scene with the color.
+date: 1550515027
