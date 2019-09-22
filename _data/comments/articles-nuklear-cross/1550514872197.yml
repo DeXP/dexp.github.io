@@ -1,0 +1,8 @@
+_id: d4f48690-33ab-11e9-8419-e1fa5a9087aa
+_parent: articles-nuklear-cross
+name: DeXPeriX
+email: a713c94ab63e4e5184f87dcd7f0f2471
+url: 'https://dexp.in'
+address: ''
+message: "I do not use any drawing API in this game. It is a pure Nuklear example. Putting image onto window's background described in the article:\r\n\r\n```\r\nnk_layout_space_push(ctx, nk_rect(x, y, width, height));\r\nnk_image(ctx, img);\r\n```"
+date: 1550514872
