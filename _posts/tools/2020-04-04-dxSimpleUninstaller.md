@@ -25,7 +25,7 @@ The stuff bundled in:
 ## Why?
 Windows Core (Server, no UI version) does not have any visual interface for the uninstallation of applications on the target machine. But it can be handy if you creating an application installer and want to verify it on the server.
 
-Or maybe you just need easy and fast access to uninstall? :blush:
+Or maybe you just need easy and fast access to uninstall? :-)
 
 ## How does it work
 The tool gets the list of the entries in the registry: HKLM:\Software\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\
@@ -35,7 +35,7 @@ The uninstall command can be like this: `MsiExec.exe /I{bla-blah}`, i.e. "Do you
 Then uninstall command invoked. No additional folders cleaning etc - do just what uninstaller do.
 
 
-[Github ›](https://github.com/DeXP/dxSimpleUninstaller)
+[GitHub ›](https://github.com/DeXP/dxSimpleUninstaller)
 {: .t30 .button .radius}
 
 
