@@ -53,6 +53,12 @@ gems:
   - jekyll-paginate
   - jekyll-redirect-from
 
+# Plugins
+plugins:
+    - jekyll-asciidoc
+    - jekyll-gist
+    - jekyll-paginate
+    
 #whitelist:
 #  - jekyll-redirect-from
 
