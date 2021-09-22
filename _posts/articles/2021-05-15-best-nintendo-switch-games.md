@@ -2,7 +2,7 @@
 layout: page
 subheadline: "Gaming"
 title:  "Best Nintendo Switch games"
-teaser: "I'm an old-school PC gamer. I have more than 2500 games in my Steam library. And for the past two years I play mainly on a Nintendo Switch. This post is my personal favorites list with some explanations."
+teaser: "I'm an old-school PC gamer. I have more than 2500 games in my Steam library. And for the past two years I play mainly on a Nintendo Switch. This post is my personal favorites list with some explanations. I'll try to keep the list updating."
 categories: articles
 tags:
     - articles
@@ -39,7 +39,7 @@ I've heard a lot of revives who praise [Zelda](https://www.nintendo.com/games/de
 
 {% include image path="animal-crossing.jpg" alt="Animal Crossing: New Horizons" link=true %}
 
-[Animal Crossing](https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/) is a game where you just live. The closest analog is The Sims. But Animal Crossing is much more kind and relax. The game time is tied to a real life time. Usually it's good to spend around an hour in on day, and return back tomorrow. The game always brings you some nice events. Kindness and peace - those two words characterize the game.
+[Animal Crossing](https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/) is a game where you just live. The closest analog is The Sims. But Animal Crossing is much more kind and relax. The game time is tied to a real life time. Usually it's good to spend around an hour in one day, and return back tomorrow. The game always brings you some nice events. Kindness and peace - those two words characterize the game.
 
 ### Super Mario Odyssey
 
@@ -166,6 +166,19 @@ The only party racing game for Switch. It has a cartoonish feeling and looks lik
 
 [Mario Tennis](https://www.nintendo.com/games/detail/mario-tennis-aces-switch/) is a pretty good sports game for two players. The mechanics were new to our parties, so almost everyone was a beginner - it's fun to play on the same level.
 
+### Mario Golf: Super Rush
+
+{% include image path="mario-golf.jpg" alt="Mario Golf: Super Rush" link=true %}
+
+The only true-golf simulator on Switch is a [Mario Golf](https://www.nintendo.com/games/detail/mario-golf-super-rush-switch/). We like to play the game with my wife when we don't want to have adrenalin in the blood, but something calm and more strategic.
+
+
+### Go Vacation
+
+{% include image path="go-vacation.jpg" alt="Go Vacation" link=true %}
+
+[Go Vacation](https://www.nintendo.com/games/detail/go-vacation-switch/) is something kinda similar to Mario Party - you have a lot of mini-games to play. But the activities in a Go Vacation are more close to the real-life ones: biking, hiking, volleyball, etc. It's really fun to play. The only disadvantage is graphics - the game comes from Nintendo Wii, so it looks kinda outdated nowadays.
+
 
 ### Castle Crashers Remastered
 
@@ -216,6 +229,13 @@ The list of games available on other platforms too. But you don't need another p
 Arcade racing. No physics, no big goals, nothing serious. Just pure fun. Burn it out, [Burnout](https://www.nintendo.com/games/detail/burnout-paradise-remastered-switch/)!
 
 
+#### CarX Drift Racing
+
+{% include image path="carx-drift.jpg" alt="CarX Drift Racing" link=true %}
+
+I absolutely like racing drift games from the tines of NFS: Underground. And [CarX Drift Racing](https://www.nintendo.com/games/detail/carx-drift-racing-online-switch/) is something that makes my heart beats faster. Each auto has its own personality. It wasn't easy to start and understand the physics. But a combination of good car, tuning, and track finally gave me the perfect pleasure.
+
+
 #### GRID Autosport
 
 {% include image path="grid.jpg" alt="GRID Autosport" link=true %}
@@ -227,7 +247,7 @@ Arcade racing. No physics, no big goals, nothing serious. Just pure fun. Burn it
 
 {% include image path="absolute-drift.jpg" alt="Absolute Drift" link=true %}
 
-[Absolute Drift](https://www.nintendo.com/games/detail/absolute-drift-switch/) is a drifting game with top view. You have to get used to physics. But the game is really one of the best when you do.
+[Absolute Drift](https://www.nintendo.com/games/detail/absolute-drift-switch/) is a drifting game with a top view. You have to get used to physics. But the game is really one of the best when you do.
 
 
 #### Lonely Mountains: Downhill
@@ -247,6 +267,14 @@ Arcade racing. No physics, no big goals, nothing serious. Just pure fun. Burn it
 [Immortals Fenyx Rising](https://www.nintendo.com/games/detail/immortals-fenyx-rising-switch/) is a pretty good clone of Zelda from Ubisoft. Nice graphics, good character leveling system. A no NPC around at all - only enemies.
 
 
+#### Kingdoms of Amalur: Re-Reckoning
+
+{% include image path="re-reckoning.jpg" alt="Kingdoms of Amalur: Re-Reckoning" link=true %}
+
+Per me, [Kingdoms of Amalur: Re-Reckoning](https://www.nintendo.com/games/detail/kingdoms-of-amalur-re-reckoning-switch/) is a mix of RPG and Slasher mechanics - you'll have to click and dodge all the opponents. It's pretty linear but really fun to play.
+
+
+
 #### Ni no Kuni Wrath of the White Witch
 
 {% include image path="ni-no-kuni.jpg" alt="Ni no Kuni Wrath of the White Witch" link=true %}
@@ -259,6 +287,39 @@ Arcade racing. No physics, no big goals, nothing serious. Just pure fun. Burn it
 {% include image path="catherine.jpg" alt="Catherine: Full Body" link=true %}
 
 I'd suggest [Catherine](https://www.nintendo.com/games/detail/catherine-full-body-switch/) for fans of Atlus, developers of Persona series and Tokyo Mirage Sessions. Catherine is not something sexual-themed. It's traditional for Atlus great storyline about gods and demons.
+
+
+#### Shin Megami Tensei III Nocturne HD Remaster
+
+{% include image path="smt3.jpg" alt="Shin Megami Tensei III Nocturne HD Remaster" link=true %}
+
+[Shin Megami Tensei III Nocturne HD Remaster](https://www.nintendo.com/games/detail/shin-megami-tensei-iii-nocturne-hd-remaster-switch/) is a remaster of a game from PlayStation 2. So it's really old school. Be ready to not have a mini-map or hints on every corner. The Persona series was born from Shin Megami Tensei, so it's nice to try the roots. The game is much darker. YOu can't satisfy everyone there (as in Persona). So bee ready to become the world-destroyer.
+
+
+### Visual Novel
+
+Nintendo Switch is something really perfect for playing visual novel games. You could play it on TV and enjoy better graphics, or take it with you to the bed and read it as an electronic book. But with graphics, music, and animations! And Nintendo's library is really rich for this type of games.
+
+
+#### If My Heart Had Wings
+
+{% include image path="if-my-heart-had-wings.jpg" alt="If My Heart Had Wings" link=true %}
+
+Google for "best visual novels ever" and you'll find [If My Heart Had Wings](https://www.nintendo.com/games/detail/if-my-heart-had-wings-switch/) in the list. The plot caught me from the first lines. The graphics is pretty reach - the game is not most modern, so the characters are not Live2D-animated hare. But the backgrounds are really perfect and alive. But again, it's about the story.
+
+
+#### Nekopara
+
+{% include image path="nekopara.jpg" alt="Nekopara" link=true %}
+
+[Nekopara](https://www.nintendo.com/games/detail/nekopara-vol4-switch/) is something opposite to If My Heart Had Wings - the story is very light here. The main thingie is the atmosphere. And the technical realization of cause - the novel uses all modern Live2D stuff, so try it to see _how_ modern visual novel could look like and feel like.
+
+
+#### Doki Doki Literature Club
+
+{% include image path="doki-doki.jpg" alt="Doki Doki Literature Club" link=true %}
+
+Do you want some visual novel for adults? [Doki Doki](https://www.nintendo.com/games/detail/doki-doki-literature-club-plus-switch/) is your choise. Not because of nudes or alcohol. The game starts pretty cute and kawaii. But be ready for suicide ending.
 
 
 
