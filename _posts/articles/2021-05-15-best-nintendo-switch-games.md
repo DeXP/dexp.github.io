@@ -76,6 +76,13 @@ Those games are exclusive to Nintendo. You just can't play them on PS4/Xbox/PC.
 [Tokyo Mirage Sessions](https://www.nintendo.com/games/detail/tokyo-mirage-sessions-fe-encore-switch/) was my entrance to the Persona franchise. I can't suggest the game to everyone: it has a specific turn-based battle system, pretty long gameplay, and some repetitiveness. But it's one of my strongest drugs. Don't pay attention to some childish setting, or too bright colors. The game is pretty serious. Advantage of the Mirage Sessions in front of Persona - it doesn't have micro time management, so it's pretty difficult to miss something in a story unintentionally.
 
 
+### The Legend of Zelda: Skyward Sword HD
+
+{% include image path="skyward-sword.jpg" alt="The Legend of Zelda: Skyward Sword HD" link=true %}
+
+Not too many games use motion control as the main input method. [Skyward Sword](https://www.nintendo.com/games/detail/the-legend-of-zelda-skyward-sword-hd-switch/) is one of them. The game was ported from Wii, where motion control was the only possibility for the game. And it was not very good. But Switch's reimplementation is good and fun. Motion helps you to live the game with deeper immersion.
+
+
 ### Paper Mario: The Origami King
 
 {% include image path="paper-mario.jpg" alt="Paper Mario: The Origami King" link=true %}
@@ -258,6 +265,13 @@ I absolutely like racing drift games from the tines of NFS: Underground. And [Ca
 
 
 ### RPG
+
+#### Monster Hunter Stories 2: Wings of Ruin
+
+{% include image path="monster-hunter-stories-2.jpg" alt="Monster Hunter Stories 2: Wings of Ruin" link=true %}
+
+Monster Hunter Rise focuses on a battle. [Monster Hunter Stories](https://www.nintendo.com/games/detail/monster-hunter-stories-2-wings-of-ruin-switch/) is more about the story than battle or the development of the character. It feels more like a good 3D visual novel. But the world is open, you ar able to travel freely.
+
 
 
 #### Immortals Fenyx Rising
