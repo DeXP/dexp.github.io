@@ -164,7 +164,14 @@ A collection of mini-games for 2-4 players. Puzzles, board games, rhythm games, 
 
 {% include image path="mario-kart.jpg" alt="Mario Kart 8 Deluxe" link=true %}
 
-The only party racing game for Switch. It has a cartoonish feeling and looks like a game for kids. But [Mario Kart](https://www.nintendo.com/games/detail/mario-kart-8-deluxe-switch/) has its own pretty advanced physics and racing strategies. Totally recommended for 2-4 players. 
+The only party racing game for Switch. It has a cartoonish feeling and looks like a game for kids. But [Mario Kart](https://www.nintendo.com/games/detail/mario-kart-8-deluxe-switch/) has its own pretty advanced physics and racing strategies. Totally recommended for 2-4 players.
+
+
+### Super Smash Bros. Ultimate
+
+{% include image path="super-smash-bros.jpg" alt="Super Smash Bros. Ultimate" link=true %}
+
+The only fighting in this top is [Super Smash Bros](https://www.nintendo.com/games/detail/super-smash-bros-ultimate-switch/). You could play the game as traditional 1-to-1 fighting, or have a huge team-to-team battle with like 4 people in each team. The game looks simple and trivial at a first glance. But it is much deeper than it looks. Also, it's fun to play. Especially with 4 players at the same time.
 
 
 ### Mario Tennis Aces
@@ -172,6 +179,7 @@ The only party racing game for Switch. It has a cartoonish feeling and looks lik
 {% include image path="mario-tennis-aces.jpg" alt="Mario Tennis Aces" link=true %}
 
 [Mario Tennis](https://www.nintendo.com/games/detail/mario-tennis-aces-switch/) is a pretty good sports game for two players. The mechanics were new to our parties, so almost everyone was a beginner - it's fun to play on the same level.
+
 
 ### Mario Golf: Super Rush
 
