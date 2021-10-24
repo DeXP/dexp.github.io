@@ -25,23 +25,23 @@ comments: true
 {:toc}
 
 
-## System sellers
+### System sellers
 
 The games that sell the platform itself. Must have and must play ones.
 
-### The Legend of Zelda: Breath of the Wild
+#### The Legend of Zelda: Breath of the Wild
 
 {% include image path="zelda-breath-of-the-wild.jpg" alt="The Legend of Zelda: Breath of the Wild" link=true %}
 
 I've heard a lot of revives who praise [Zelda](https://www.nintendo.com/games/detail/the-legend-of-zelda-breath-of-the-wild-switch/) as a masterpiece. It was compared to Witcher, The Elder Scrolls, and other legends of RPG. And Zelda didn't look so at a first glance. My first thought was: "What is that? Just a casual RPG with a little bit of content, not advanced techniques and outdated graphics!". I was wrong. Yes, Zelda is not about graphics or complicated story/quests. It's about gameplay. You have so many abilities and freedom to do. Just give this game a chance. And choose your own play style.
 
-### Animal Crossing: New Horizons
+#### Animal Crossing: New Horizons
 
 {% include image path="animal-crossing.jpg" alt="Animal Crossing: New Horizons" link=true %}
 
 [Animal Crossing](https://www.nintendo.com/games/detail/animal-crossing-new-horizons-switch/) is a game where you just live. The closest analog is The Sims. But Animal Crossing is much more kind and relax. The game time is tied to a real life time. Usually it's good to spend around an hour in one day, and return back tomorrow. The game always brings you some nice events. Kindness and peace - those two words characterize the game.
 
-### Super Mario Odyssey
+#### Super Mario Odyssey
 
 {% include image path="super-mario-odyssey.jpg" alt="Super Mario Odyssey" link=true %}
 
@@ -50,75 +50,75 @@ I've heard a lot of revives who praise [Zelda](https://www.nintendo.com/games/de
 
 
 
-## Exclusives
+### Exclusives
 
 Those games are exclusive to Nintendo. You just can't play them on PS4/Xbox/PC.
 
 
-### Xenoblade Chronicles: Definitive Edition
+#### Xenoblade Chronicles: Definitive Edition
 
 {% include image path="xenoblade-chronicles.jpg" alt="Xenoblade Chronicles: Definitive Edition" link=true %}
 
 [Xenoblade Chronicles](https://www.nintendo.com/games/detail/xenoblade-chronicles-definitive-edition-switch/) is one of the best jRPG ever. It's not in the system sellers list just because not everyone likes jRPG, and the game does not give you such amount of freedom as The Legend of Zelda: Breath of the Wild.
 
 
-### Mario + Rabbids Kingdom Battle
+#### Mario + Rabbids Kingdom Battle
 
 {% include image path="mario-plus-rabbits.jpg" alt="Mario + Rabbids Kingdom Battle" link=true %}
 
 [Mario + Rabbids](https://www.nintendo.com/games/detail/mario-plus-rabbids-kingdom-battle-switch/) is something similar to XCOM, but much better. Turn-based battle on a 3D field divided into squares. The game probably will not fit kid auditory since it requires thinking a lot.
 
 
-### Tokyo Mirage Sessions #FE Encore
+#### Tokyo Mirage Sessions #FE Encore
 
 {% include image path="tokyo-mirage-sessions.jpg" alt="Tokyo Mirage Sessions #FE Encore" link=true %}
 
 [Tokyo Mirage Sessions](https://www.nintendo.com/games/detail/tokyo-mirage-sessions-fe-encore-switch/) was my entrance to the Persona franchise. I can't suggest the game to everyone: it has a specific turn-based battle system, pretty long gameplay, and some repetitiveness. But it's one of my strongest drugs. Don't pay attention to some childish setting, or too bright colors. The game is pretty serious. Advantage of the Mirage Sessions in front of Persona - it doesn't have micro time management, so it's pretty difficult to miss something in a story unintentionally.
 
 
-### The Legend of Zelda: Skyward Sword HD
+#### The Legend of Zelda: Skyward Sword HD
 
 {% include image path="skyward-sword.jpg" alt="The Legend of Zelda: Skyward Sword HD" link=true %}
 
 Not too many games use motion control as the main input method. [Skyward Sword](https://www.nintendo.com/games/detail/the-legend-of-zelda-skyward-sword-hd-switch/) is one of them. The game was ported from Wii, where motion control was the only possibility for the game. And it was not very good. But Switch's reimplementation is good and fun. Motion helps you to live the game with deeper immersion.
 
 
-### Paper Mario: The Origami King
+#### Paper Mario: The Origami King
 
 {% include image path="paper-mario.jpg" alt="Paper Mario: The Origami King" link=true %}
 
 [Paper Mario](https://www.nintendo.com/games/detail/paper-mario-the-origami-king-switch/) is another 3D platformer on this top. A bit more 2D, more cartoonish style. The disadvantage of the game is casual monsters fights - it's too easy. But the games still give a lot of holiday feeling.
 
 
-### Captain Toad: Treasure Tracker
+#### Captain Toad: Treasure Tracker
 
 {% include image path="captain-toad.jpg" alt="Captain Toad: Treasure Tracker" link=true %}
 
 [Captain Toad](https://www.nintendo.com/games/detail/captain-toad-treasure-tracker-switch/) is a good 3D action-puzzle on small maps. Especially perfect to play in portative mode with a touch screen.
 
 
-### Monster Hunter: Rise
+#### Monster Hunter: Rise
 
 {% include image path="monster-hunter-rise.jpg" alt="Monster Hunter: Rise" link=true %}
 
 [Monster Hunter](https://www.nintendo.com/games/detail/monster-hunter-rise-switch/) is a good RPG with a focus on a fight. The game is imbued with an Asian spirit.
 
 
-### The Legend of Zelda: Link's Awakening
+#### The Legend of Zelda: Link's Awakening
 
 {% include image path="links-awakening.jpg" alt="The Legend of Zelda: Link's Awakening" link=true %}
 
 [Link's Awakening](https://www.nintendo.com/games/detail/the-legend-of-zelda-links-awakening-switch/) has nothing in common with Breath of the Wild. It's a clone of the original gameboy game, top-down view. The graphics is pretty cute.
 
 
-### Fire Emblem: Three Houses
+#### Fire Emblem: Three Houses
 
 {% include image path="fire-emblem.jpg" alt="Fire Emblem: Three Houses" link=true %}
 
 [Fire Emblem](https://www.nintendo.com/games/detail/fire-emblem-three-houses-switch/) is a turn-based RPG with a battle similar to XCOM. You are a school teacher in the game. And you have to rise your class’s students into high-class warriors who will be able to fight in the team.
 
 
-### Super Mario 3D World + Bowser's Fury
+#### Super Mario 3D World + Bowser's Fury
 
 {% include image path="super-mario-3d-world.jpg" alt="Super Mario 3D World" link=true %}
 
@@ -126,21 +126,21 @@ Not too many games use motion control as the main input method. [Skyward Sword](
 
 
 
-### Hyrule Warriors: Age of Calamity
+#### Hyrule Warriors: Age of Calamity
 
 {% include image path="hyrule-warriors-calamity.jpg" alt="Hyrule Warriors: Age of Calamity" link=true %}
 
 The fighting game in the mosou genre - it's where you are the alone warrior beat hundreds of enemies at the same time. The battles are pretty fun in [Hyrule Warriors](https://www.nintendo.com/games/detail/hyrule-warriors-age-of-calamity-switch/).
 
 
-### Pikmin 3 Deluxe
+#### Pikmin 3 Deluxe
 
 {% include image path="pikmin.jpg" alt="Pikmin 3 Deluxe" link=true %}
 
 [Pikmin](https://www.nintendo.com/games/detail/pikmin-3-deluxe-switch/) is a game similar to Overlord - you have a large band of s small creatures who follow you and executes your orders. Each creature type could do something unique: create fire, freeze water, move stones, etc. 
 
 
-### Fitness Boxing 
+#### Fitness Boxing 
 
 {% include image path="fitness-boxing.jpg" alt="Fitness Boxing 2: Rhythm & Exercise" link=true %}
 
@@ -148,84 +148,84 @@ The fighting game in the mosou genre - it's where you are the alone warrior beat
 
 
 
-## Multiple players and Party games
+### Multiple players and Party games
 
 Those games are fun to play in a party mode: 2-4 players on the same console
 
 
-### Super Mario Party
+#### Super Mario Party
 
 {% include image path="super-mario-party.jpg" alt="Super Mario Party" link=true %}
 
 A collection of mini-games for 2-4 players. Puzzles, board games, rhythm games, etc. Plus a lot of games use the capabilities of Nintendo hardware - players will move physically and will enjoy it. Everything needed for a party could be found there. The best option for 4 players. Do you have the party at home? Just do the [Super Mario Party](https://www.nintendo.com/games/detail/super-mario-party-switch/).
 
 
-### Mario Kart 8 Deluxe
+#### Mario Kart 8 Deluxe
 
 {% include image path="mario-kart.jpg" alt="Mario Kart 8 Deluxe" link=true %}
 
 The only party racing game for Switch. It has a cartoonish feeling and looks like a game for kids. But [Mario Kart](https://www.nintendo.com/games/detail/mario-kart-8-deluxe-switch/) has its own pretty advanced physics and racing strategies. Totally recommended for 2-4 players.
 
 
-### Super Smash Bros. Ultimate
+#### Super Smash Bros. Ultimate
 
 {% include image path="super-smash-bros.jpg" alt="Super Smash Bros. Ultimate" link=true %}
 
 The only fighting in this top is [Super Smash Bros](https://www.nintendo.com/games/detail/super-smash-bros-ultimate-switch/). You could play the game as traditional 1-to-1 fighting, or have a huge team-to-team battle with like 4 people in each team. The game looks simple and trivial at a first glance. But it is much deeper than it looks. Also, it's fun to play. Especially with 4 players at the same time.
 
 
-### Mario Tennis Aces
+#### Mario Tennis Aces
 
 {% include image path="mario-tennis-aces.jpg" alt="Mario Tennis Aces" link=true %}
 
 [Mario Tennis](https://www.nintendo.com/games/detail/mario-tennis-aces-switch/) is a pretty good sports game for two players. The mechanics were new to our parties, so almost everyone was a beginner - it's fun to play on the same level.
 
 
-### Mario Golf: Super Rush
+#### Mario Golf: Super Rush
 
 {% include image path="mario-golf.jpg" alt="Mario Golf: Super Rush" link=true %}
 
 The only true-golf simulator on Switch is a [Mario Golf](https://www.nintendo.com/games/detail/mario-golf-super-rush-switch/). We like to play the game with my wife when we don't want to have adrenalin in the blood, but something calm and more strategic.
 
 
-### Go Vacation
+#### Go Vacation
 
 {% include image path="go-vacation.jpg" alt="Go Vacation" link=true %}
 
 [Go Vacation](https://www.nintendo.com/games/detail/go-vacation-switch/) is something kinda similar to Mario Party - you have a lot of mini-games to play. But the activities in a Go Vacation are more close to the real-life ones: biking, hiking, volleyball, etc. It's really fun to play. The only disadvantage is graphics - the game comes from Nintendo Wii, so it looks kinda outdated nowadays.
 
 
-### FIFA
+#### FIFA
 
 {% include image path="fifa.jpg" alt="FIFA" link=true %}
 
 Are you keen into football? Then [FIFA](https://www.nintendo.com/games/detail/fifa-21-nintendo-switch-legacy-edition-switch/) is your choice! I'm definitely not. But the games is really fun to play in two persons who near the same level. In the real life you have to run and sweat a lot. But the game for Switch have much more fun.
 
 
-### Castle Crashers Remastered
+#### Castle Crashers Remastered
 
 {% include image path="castle-crashers.jpg" alt="Castle Crashers Remastered" link=true %}
 
 [Castle Crashers](https://www.nintendo.com/games/detail/castle-crashers-remastered-switch/) is a fun beat’em up game up to 4 players. Doesn't feels like a battle or kill, it feels like pure fun.
 
 
-## Other games with advantages on Switch
+### Other games with advantages on Switch
 
-### Sniper Elite 4
+#### Sniper Elite 4
 
 {% include image path="sniper-elite-4.jpg" alt="Sniper Elite 4" link=true %}
 
 It's totally not possible to play shooter games on other consoles when you got used to Switch's accelerometer aim helper. Also, the quality of vibration adds some drive to the game. It's pleasant to pull the trigger in [Sniper Elite](https://www.nintendo.com/games/detail/sniper-elite-4-switch/) series.
 
 
-### The Witcher 3: Wild Hunt
+#### The Witcher 3: Wild Hunt
 
 {% include image path="the-witcher.jpg" alt="The Witcher 3: Wild Hunt" link=true %}
 
 [The Witcher](https://www.nintendo.com/games/detail/the-witcher-3-wild-hunt-complete-edition-switch/) supports cross saves between Switch and Steam. Just take it on a trip with you and continue to play on PC at home.
 
 
-### Hades
+#### Hades
 
 {% include image path="hades.jpg" alt="Hades" link=true %}
 
@@ -424,4 +424,4 @@ Hardcore platformer with a hilarious story. [Ori](https://www.nintendo.com/games
 
 ## Conclusion
 
-Nintendo Switch games are usually not about high-end AAA graphics. There are not many fighting games. But you could find a lot of good kind games focused on the gameplay.
+Nintendo Switch games are usually not about high-end AAA graphics. There are not many fighting games. But you could find a lot of good kind games focused on the gameplay. <script>document.write("I hope the list of " + document.getElementsByTagName('h4').length + " recommendations was big enough to choose something to play.");</script>
