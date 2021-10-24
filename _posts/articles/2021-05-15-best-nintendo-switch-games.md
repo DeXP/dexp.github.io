@@ -14,7 +14,7 @@ image:
    thumb: "thumb/best-nintendo-switch-games.jpg"
    homepage: "head/best-nintendo-switch-games.jpg"
 header:
-    image_fullwidth: "other/switch/animal-crossing.jpg"
+    image_fullwidth: "other/switch/trine3.jpg"
 imgs_path: "other/switch/"
 comments: true
 ---
