@@ -195,6 +195,13 @@ The only true-golf simulator on Switch is a [Mario Golf](https://www.nintendo.co
 [Go Vacation](https://www.nintendo.com/games/detail/go-vacation-switch/) is something kinda similar to Mario Party - you have a lot of mini-games to play. But the activities in a Go Vacation are more close to the real-life ones: biking, hiking, volleyball, etc. It's really fun to play. The only disadvantage is graphics - the game comes from Nintendo Wii, so it looks kinda outdated nowadays.
 
 
+### FIFA
+
+{% include image path="fifa.jpg" alt="FIFA" link=true %}
+
+Are you keen into football? Then [FIFA](https://www.nintendo.com/games/detail/fifa-21-nintendo-switch-legacy-edition-switch/) is your choice! I'm definitely not. But the games is really fun to play in two persons who near the same level. In the real life you have to run and sweat a lot. But the game for Switch have much more fun.
+
+
 ### Castle Crashers Remastered
 
 {% include image path="castle-crashers.jpg" alt="Castle Crashers Remastered" link=true %}
@@ -234,7 +241,7 @@ The list of games available on other platforms too. But you don't need another p
 
 
 
-### Racing
+### Auto Racing
 
 
 #### Burnout Paradise Remastered
@@ -257,12 +264,29 @@ I absolutely like racing drift games from the tines of NFS: Underground. And [Ca
 
 [GRID Autosport](https://www.nintendo.com/games/detail/grid-autosport-switch/) is still an arcade. But it has some physics, so could be counted as the only racing simulator on Switch. The game is very special and I would recommend it only to the fans of the series. Or of hardcore real racing.
 
-
 #### Absolute Drift
 
 {% include image path="absolute-drift.jpg" alt="Absolute Drift" link=true %}
 
 [Absolute Drift](https://www.nintendo.com/games/detail/absolute-drift-switch/) is a drifting game with a top view. You have to get used to physics. But the game is really one of the best when you do.
+
+
+
+### Other racing
+
+
+#### Trials Rising
+
+{% include image path="trials-rising.jpg" alt="Trials Rising" link=true %}
+
+[Trials Rising](https://www.nintendo.com/games/detail/trials-rising-gold-edition-switch/) is a game about motocross/trial. I spent a big bit of my life in [XMoto](https://xmoto.tuxfamily.org/). But Switch game game is much more modern, 3D, and some competitive elements were added.
+
+
+#### Tony Hawk's Pro Skater
+
+{% include image path="pro-skater.jpg" alt="Tony Hawk's Pro Skater" link=true %}
+
+[Tony Hawk's Pro Skater](https://www.nintendo.com/games/detail/tony-hawks-pro-skater-1-and-2-switch/) is something in a middle between racing and arcade. It's more difficult to do the tricks than it looks like. But it gave a lot of pleasure to master them.
 
 
 #### Lonely Mountains: Downhill
