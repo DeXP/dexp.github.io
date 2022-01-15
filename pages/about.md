@@ -5,7 +5,7 @@ subheadline: ""
 teaser: ""
 permalink: "/about/"
 header:
-  image_fullwidth: "Dexp_Rechica.jpg"
+    image_fullwidth: "Dexp_Paskevich.jpg"
 buttons:
     - caption: "Gamedev"
       url: "/download/Hrabrov_CV_gamedev.pdf"

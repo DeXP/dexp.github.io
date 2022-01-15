@@ -76,6 +76,13 @@ Those games are exclusive to Nintendo. You just can't play them on PS4/Xbox/PC.
 [Tokyo Mirage Sessions](https://www.nintendo.com/games/detail/tokyo-mirage-sessions-fe-encore-switch/) was my entrance to the Persona franchise. I can't suggest the game to everyone: it has a specific turn-based battle system, pretty long gameplay, and some repetitiveness. But it's one of my strongest drugs. Don't pay attention to some childish setting, or too bright colors. The game is pretty serious. Advantage of the Mirage Sessions in front of Persona - it doesn't have micro time management, so it's pretty difficult to miss something in a story unintentionally.
 
 
+#### Shin Megami Tensei V
+
+{% include image path="smt5.jpg" alt="Shin Megami Tensei V" link=true %}
+
+[Shin Megami Tensei V](https://www.nintendo.com/games/detail/shin-megami-tensei-v-switch/) is another RPG from Atlus, but compared to Persona or Tokyo Mirage Sessions does not have such a big amount of text - more exploration and battle. The Persona series was born from Shin Megami Tensei, so it's nice to try the roots. The game is much darker. You can't satisfy everyone there (as in Persona). So be ready to become the world-destroyer.
+
+
 #### The Legend of Zelda: Skyward Sword HD
 
 {% include image path="skyward-sword.jpg" alt="The Legend of Zelda: Skyward Sword HD" link=true %}
@@ -97,13 +104,6 @@ Not too many games use motion control as the main input method. [Skyward Sword](
 [Captain Toad](https://www.nintendo.com/games/detail/captain-toad-treasure-tracker-switch/) is a good 3D action-puzzle on small maps. Especially perfect to play in portative mode with a touch screen.
 
 
-#### Monster Hunter: Rise
-
-{% include image path="monster-hunter-rise.jpg" alt="Monster Hunter: Rise" link=true %}
-
-[Monster Hunter](https://www.nintendo.com/games/detail/monster-hunter-rise-switch/) is a good RPG with a focus on a fight. The game is imbued with an Asian spirit.
-
-
 #### The Legend of Zelda: Link's Awakening
 
 {% include image path="links-awakening.jpg" alt="The Legend of Zelda: Link's Awakening" link=true %}
@@ -116,6 +116,14 @@ Not too many games use motion control as the main input method. [Skyward Sword](
 {% include image path="fire-emblem.jpg" alt="Fire Emblem: Three Houses" link=true %}
 
 [Fire Emblem](https://www.nintendo.com/games/detail/fire-emblem-three-houses-switch/) is a turn-based RPG with a battle similar to XCOM. You are a school teacher in the game. And you have to rise your class’s students into high-class warriors who will be able to fight in the team.
+
+
+#### Metroid Dread
+
+{% include image path="metroid-dread.jpg" alt="Metroid Dread" link=true %}
+
+Do you like platformers and shooters? [Metroid Dread](https://www.nintendo.com/games/detail/hyrule-warriors-age-of-calamity-switch/) is for you. A big part of the game is based on timings - you'll get an advantage when you block with a shield at the correct timing.
+
 
 
 #### Super Mario 3D World + Bowser's Fury
@@ -232,6 +240,12 @@ It's totally not possible to play shooter games on other consoles when you got u
 [Hades](https://www.nintendo.com/games/detail/hades-switch/) is a god-like rogue-like dungeon crawler. Kill all the beasts! The game has cross saves same as The Witcher.
 
 
+#### Monster Hunter: Rise
+
+{% include image path="monster-hunter-rise.jpg" alt="Monster Hunter: Rise" link=true %}
+
+[Monster Hunter](https://www.nintendo.com/games/detail/monster-hunter-rise-switch/) is a good RPG with a focus on a fight. The game is imbued with an Asian spirit. The game was Switch-exclusive for a long time, so it's highly optimized.
+
 
 
 
@@ -296,14 +310,15 @@ I absolutely like racing drift games from the tines of NFS: Underground. And [Ca
 [Lonely Mountains: Downhill](https://www.nintendo.com/games/detail/lonely-mountains-downhill-switch/) - Bicycling simulator. Pretty hardcore and fun one.
 
 
+
 ### RPG
+
 
 #### Monster Hunter Stories 2: Wings of Ruin
 
 {% include image path="monster-hunter-stories-2.jpg" alt="Monster Hunter Stories 2: Wings of Ruin" link=true %}
 
 Monster Hunter Rise focuses on a battle. [Monster Hunter Stories](https://www.nintendo.com/games/detail/monster-hunter-stories-2-wings-of-ruin-switch/) is more about the story than battle or the development of the character. It feels more like a good 3D visual novel. But the world is open, you ar able to travel freely.
-
 
 
 #### Immortals Fenyx Rising
@@ -313,6 +328,13 @@ Monster Hunter Rise focuses on a battle. [Monster Hunter Stories](https://www.ni
 [Immortals Fenyx Rising](https://www.nintendo.com/games/detail/immortals-fenyx-rising-switch/) is a pretty good clone of Zelda from Ubisoft. Nice graphics, good character leveling system. A no NPC around at all - only enemies.
 
 
+#### Oceanhorn
+
+{% include image path="oceanhorn2.jpg" alt="Oceanhorn 2: Knights of the Lost Realm" link=true %}
+
+Let's continue my Zelda-clones list with [Oceanhorn 2: Knights of the Lost Realm](https://www.nintendo.com/games/detail/oceanhorn-2-knights-of-the-lost-realm-switch/). The game is initially created by Apple arcade for iPad, not AAA-consoles. It gives both advantages and disadvantages. The main disadvantage is a scale: it's not that deep. The main advantage - graphics look perfect on Switch.
+
+
 #### Kingdoms of Amalur: Re-Reckoning
 
 {% include image path="re-reckoning.jpg" alt="Kingdoms of Amalur: Re-Reckoning" link=true %}
@@ -320,12 +342,14 @@ Monster Hunter Rise focuses on a battle. [Monster Hunter Stories](https://www.ni
 Per me, [Kingdoms of Amalur: Re-Reckoning](https://www.nintendo.com/games/detail/kingdoms-of-amalur-re-reckoning-switch/) is a mix of RPG and Slasher mechanics - you'll have to click and dodge all the opponents. It's pretty linear but really fun to play.
 
 
+### Adventure
 
-#### Ni no Kuni Wrath of the White Witch
 
-{% include image path="ni-no-kuni.jpg" alt="Ni no Kuni Wrath of the White Witch" link=true %}
+#### Hellblade: Senua's Sacrifice
 
-[Ni no Kuni](https://www.nintendo.com/games/detail/ni-no-kuni-wrath-of-the-white-witch-switch/) is an RPG developed in cooperation with Ghibli. Really the best anime style. And not so easy as it looks like.
+{% include image path="hellblade.jpg" alt="Hellblade: Senua's Sacrifice" link=true %}
+
+[Hellblade: Senua's Sacrifice](https://www.nintendo.com/games/detail/hellblade-senuas-sacrifice-switch/) gives you the most PlayStation experience possible on Switch: a strong story, good graphics, deep atmosphere. The game feels like the movie at the very beginning. And the fighting feels pretty good in the game.
 
 
 #### Catherine: Full Body
@@ -335,11 +359,32 @@ Per me, [Kingdoms of Amalur: Re-Reckoning](https://www.nintendo.com/games/detail
 I'd suggest [Catherine](https://www.nintendo.com/games/detail/catherine-full-body-switch/) for fans of Atlus, developers of Persona series and Tokyo Mirage Sessions. Catherine is not something sexual-themed. It's traditional for Atlus great storyline about gods and demons.
 
 
-#### Shin Megami Tensei III Nocturne HD Remaster
+#### Ni no Kuni Wrath of the White Witch
 
-{% include image path="smt3.jpg" alt="Shin Megami Tensei III Nocturne HD Remaster" link=true %}
+{% include image path="ni-no-kuni.jpg" alt="Ni no Kuni Wrath of the White Witch" link=true %}
 
-[Shin Megami Tensei III Nocturne HD Remaster](https://www.nintendo.com/games/detail/shin-megami-tensei-iii-nocturne-hd-remaster-switch/) is a remaster of a game from PlayStation 2. So it's really old school. Be ready to not have a mini-map or hints on every corner. The Persona series was born from Shin Megami Tensei, so it's nice to try the roots. The game is much darker. YOu can't satisfy everyone there (as in Persona). So bee ready to become the world-destroyer.
+[Ni no Kuni](https://www.nintendo.com/games/detail/ni-no-kuni-wrath-of-the-white-witch-switch/) is an RPG developed in cooperation with Ghibli. Really the best anime style. And not so easy as it looks like.
+
+
+
+
+### Action
+
+
+#### Assassin's Creed IV: Black Flag
+
+{% include image path="assassins-creed-black-flag.jpg" alt="Assassin's Creed IV: Black Flag" link=true %}
+
+One of the best [Assassin's Creed](https://www.nintendo.com/games/detail/assassins-creed-the-rebel-collection-switch/) games available on Switch.
+
+
+#### The Talos Principle
+
+{% include image path="the-talos-principle.jpg" alt="The Talos Principle " link=true %}
+
+It's more puzzle than action. Something similar to Portal. But some chambers are pretty difficult to pass without platforming/action skills. Also, [The Talos Principle](https://www.nintendo.com/games/detail/the-talos-principle-deluxe-edition-switch/) has a pretty philosophical plot.
+
+
 
 
 ### Visual Novel
@@ -367,23 +412,6 @@ Google for "best visual novels ever" and you'll find [If My Heart Had Wings](htt
 
 Do you want some visual novel for adults? [Doki Doki](https://www.nintendo.com/games/detail/doki-doki-literature-club-plus-switch/) is your choise. Not because of nudes or alcohol. The game starts pretty cute and kawaii. But be ready for suicide ending.
 
-
-
-### Action
-
-
-#### Assassin's Creed IV: Black Flag
-
-{% include image path="assassins-creed-black-flag.jpg" alt="Assassin's Creed IV: Black Flag" link=true %}
-
-One of the best [Assassin's Creed](https://www.nintendo.com/games/detail/assassins-creed-the-rebel-collection-switch/) games available on Switch.
-
-
-#### The Talos Principle
-
-{% include image path="the-talos-principle.jpg" alt="The Talos Principle " link=true %}
-
-It's more puzzle than action. Something similar to Portal. But some chambers are pretty difficult to pass without platforming/action skills. Also, [The Talos Principle](https://www.nintendo.com/games/detail/the-talos-principle-deluxe-edition-switch/) has a pretty philosophical plot.
 
 
 ### Platformer
