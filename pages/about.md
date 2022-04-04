@@ -10,9 +10,6 @@ buttons:
     - caption: "Gamedev"
       url: "/download/Hrabrov_CV_gamedev.pdf"
       class: "info"
-    - caption: "Tools"
-      url: "/download/Hrabrov_CV_tools.pdf"
-      class: success
     - caption: "Linux"
       url: "/download/Hrabrov_CV_linux.pdf"
       class: warning
