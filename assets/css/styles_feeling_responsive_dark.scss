@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter, rest is included from site.sass.sass_dir
+sitemap:
+  exclude: true
+---
+@charset "utf-8";
+
+@import "functions.scss";
+@import "01_settings_colors_dark.scss";
+@import "02_settings_typography.scss";
+@import "03_settings_mixins_media_queries.scss";
+@import "04_settings_global.scss";
+@import "05_normalize.scss"; // normalize.css v3.0.2
+
+@import "foundation-components-dark/top-bar";
+@import "foundation-components-dark/accordion";
+@import "foundation-components-dark/alert-boxes";
+@import "foundation-components-dark/breadcrumbs";
+@import "foundation-components-dark/block-grid";
+@import "foundation-components-dark/button-groups";
+@import "foundation-components-dark/buttons";
+@import "foundation-components-dark/clearing";
+@import "foundation-components-dark/dropdown";
+@import "foundation-components-dark/dropdown-buttons";
+@import "foundation-components-dark/flex-video";
+@import "foundation-components-dark/forms";
+@import "foundation-components-dark/grid";
+@import "foundation-components-dark/inline-lists";
+@import "foundation-components-dark/keystrokes";
+@import "foundation-components-dark/panels";
+@import "foundation-components-dark/reveal";
+@import "foundation-components-dark/side-nav";
+@import "foundation-components-dark/sub-nav";
+@import "foundation-components-dark/tables";
+@import "foundation-components-dark/thumbs";
+@import "foundation-components-dark/top-bar";
+@import "foundation-components-dark/type";
+@import "foundation-components-dark/visibility";
+
+@import "06_typography.scss";
+@import "07_layout_dark.scss";
+@import "foundation-components/grid";
+@import "09_elements.scss";
+
+{% if site.asciidoctor-enabled == true %}
+@import "10_asciidoc.scss";
+{% endif %}
+
+@import "11_syntax-highlighting.scss";
