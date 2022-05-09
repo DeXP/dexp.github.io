@@ -48,7 +48,7 @@ The engine was completely rewritten in 2007. C++, MySQL, Linux, LaTeX-like synta
 
 ![Black Purple]({{ site.urlimg }}other/dexp-homepage/dexp-black.png "Black Purple")
 
-[Old DeXPeriX.net ›](http://old.dexperix.net)
+[Old DeXPeriX.net ›](https://old.dexp.in)
 {: .t30 .button .radius}
 
 

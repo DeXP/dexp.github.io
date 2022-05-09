@@ -39,7 +39,7 @@ sitemap:
 
 @import "06_typography.scss";
 @import "07_layout_dark.scss";
-@import "foundation-components/grid";
+@import "foundation-components-dark/grid";
 @import "09_elements.scss";
 
 {% if site.asciidoctor-enabled == true %}

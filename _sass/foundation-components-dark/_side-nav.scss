@@ -20,8 +20,8 @@ $side-nav-list-margin: rem-calc(0 0 7 0) !default;
 
 // We use these to control link styles.
 $side-nav-link-color: $primary-color !default;
-$side-nav-link-color-active: scale-color($side-nav-link-color, $lightness: 30%) !default;
-$side-nav-link-color-hover: scale-color($side-nav-link-color, $lightness: 30%) !default;
+$side-nav-link-color-active-dark: scale-color($side-nav-link-color, $lightness: -30%) !default;
+$side-nav-link-color-hover-dark: scale-color($side-nav-link-color, $lightness: -30%) !default;
 $side-nav-link-bg-hover: hsla(0, 0, 0, 0.025) !default;
 $side-nav-link-margin: 0 !default;
 $side-nav-link-padding: rem-calc(7 14) !default;
@@ -53,12 +53,12 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 // $divider-color - Border color of divider. Default: $side-nav-divider-color.
 // $font-size - Font size of nav items. Default: $side-nav-font-size.
 // $link-color - Color of navigation links. Default: $side-nav-link-color.
-// $link-color-hover - Color of navigation links when hovered. Default: $side-nav-link-color-hover.
-@mixin side-nav(
+// $link-color-hover - Color of navigation links when hovered. Default: $side-nav-link-color-hover-dark.
+@mixin side-nav-dark(
   $divider-color:$side-nav-divider-color,
   $font-size:$side-nav-font-size,
   $link-color:$side-nav-link-color,
-  $link-color-hover:$side-nav-link-color-hover,
+  $link-color-hover:$side-nav-link-color-hover-dark,
   $link-bg-hover:$side-nav-link-bg-hover) {
   display: block;
   margin: 0;
@@ -85,7 +85,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
     }
 
     &.active > a:first-child:not(.button) {
-      color: $side-nav-link-color-active;
+      color: $side-nav-link-color-active-dark;
       font-weight: $side-nav-font-weight-active;
       font-family: $side-nav-font-family-active;
     }
@@ -111,6 +111,6 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 
 @include exports("side-nav") {
   @if $include-html-nav-classes {
-    .side-nav { @include side-nav; }
+    .side-nav { @include side-nav-dark; }
   }
 }
