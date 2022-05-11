@@ -243,10 +243,17 @@ $black        : #000000 !default;
 // We use these as default colors throughout
 $primary-color: #013c50 !default;   // bondi-blue
 $secondary-color: #343434 !default; // white-lilac
-$alert-color: #a42d18 !default;     // cinnabar
+$alert-color: #991b1b !default;     // cinnabar
 $success-color: #2d7548 !default;   // sea-green
-$warning-color: #aa621b !default;   // carrot
-$info-color: #5f7b86 !default;      // cornflower
+$warning-color: #a04918 !default;   // carrot
+$info-color: #293e4a !default;      // cornflower
+
+$primary-color-dark: #013c50 !default;   // bondi-blue
+$secondary-color-dark: #343434 !default; // white-lilac
+$alert-color-dark: #991b1b !default;     // cinnabar
+$success-color-dark: #5d731d !default;   // sea-green
+$warning-color-dark: #a04918 !default;   // carrot
+$info-color-dark: #293e4a !default;      // cornflower
 
 // We use these to define default font stacks
 $font-family-sans-serif: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif !default;

@@ -19,9 +19,9 @@ $side-nav-list-position: outside !default;
 $side-nav-list-margin: rem-calc(0 0 7 0) !default;
 
 // We use these to control link styles.
-$side-nav-link-color: $primary-color !default;
-$side-nav-link-color-active-dark: scale-color($side-nav-link-color, $lightness: -30%) !default;
-$side-nav-link-color-hover-dark: scale-color($side-nav-link-color, $lightness: -30%) !default;
+$side-nav-link-color-dark: $primary-color !default;
+$side-nav-link-color-active-dark: scale-color($side-nav-link-color-dark, $lightness: 30%) !default;
+$side-nav-link-color-hover-dark: scale-color($side-nav-link-color-dark, $lightness: 30%) !default;
 $side-nav-link-bg-hover: hsla(0, 0, 0, 0.025) !default;
 $side-nav-link-margin: 0 !default;
 $side-nav-link-padding: rem-calc(7 14) !default;
@@ -32,7 +32,7 @@ $side-nav-font-family: $body-font-family !default;
 $side-nav-font-family-active: $side-nav-font-family !default;
 
 // We use these to control heading styles.
-$side-nav-heading-color: $side-nav-link-color !default;
+$side-nav-heading-color: $side-nav-link-color-dark !default;
 $side-nav-heading-font-size: $side-nav-font-size !default;
 $side-nav-heading-font-weight: bold !default;
 $side-nav-heading-text-transform: uppercase !default;
@@ -57,7 +57,7 @@ $side-nav-divider-color: scale-color($white, $lightness: 10%) !default;
 @mixin side-nav-dark(
   $divider-color:$side-nav-divider-color,
   $font-size:$side-nav-font-size,
-  $link-color:$side-nav-link-color,
+  $link-color:$side-nav-link-color-dark,
   $link-color-hover:$side-nav-link-color-hover-dark,
   $link-bg-hover:$side-nav-link-bg-hover) {
   display: block;
