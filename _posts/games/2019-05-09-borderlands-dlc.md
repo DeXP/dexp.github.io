@@ -29,12 +29,12 @@ gallery:
     - image_url: bl-thc/5.jpg
     - image_url: bl-thc/6.jpg
     - image_url: bl-thc/7.jpg
-    - image_url: bl-thc/8.jpg
+    - image_url: bl-thc/BorderlandsDLC_credits_DeXP.jpg
 ---
 
 {% include gallery %}
 
-Platforms: PlayStation 4 Pro, Xbox One, Steam. I was a build system engeneer, 2K Czech.
+Platforms: PlayStation 4 Pro, Xbox One, Steam. I was a build system engineer, 2K Czech.
 
 <iframe src="https://store.steampowered.com/widget/941180/" frameborder="0" width="646" height="190"></iframe>
 
