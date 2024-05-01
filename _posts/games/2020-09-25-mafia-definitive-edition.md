@@ -14,6 +14,7 @@ tags:
     - steam
     - epic games
     - 2K Czech
+    - Hangar 13
 image:
    thumb: "thumb/mafia.jpg"
    homepage: "head/Mafia-970x370.jpg"
